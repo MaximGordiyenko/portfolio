@@ -1,6 +1,16 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
-
-module.exports = nextConfig
+  images: {
+    domains: ['images.ctfassets.net']
+  },
+  // webpack: (config) => {
+  //   config.resolve.alias = {
+  //     ...config.resolve.alias,
+  //     react: "preact/compat",
+  //     "react-dom/test-utils": "preact/test-utils",
+  //     "react-dom": "preact/compat",
+  //   };
+  //
+  //   return config;
+  // },
+};
