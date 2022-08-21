@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Hobby = ({ hobby }) => {
   return (
     <div className="flex justify-center mx-[5vw] mt-16">
@@ -15,10 +17,12 @@ const Hobby = ({ hobby }) => {
               rel="noopener noreferrer"
               className="flex gap-3 hover:bg-slate-900 p-3 transition duration-300"
               key={project.id}>
-              <img
-                className="h-[40px] w-[40px] my-1 object-cover"
+              <Image
+                className="h-[40px] w-[80px] my-1 object-contain"
                 src={project.icon.url}
-                alt=""
+                alt={project.icon.url}
+                width='80px'
+                height='40px'
               />
               <div>
                 <h1 className="text-sky-600 hover:text-sky-400">{project.title}</h1>

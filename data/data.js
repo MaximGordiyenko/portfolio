@@ -61,7 +61,7 @@ export const data = {
       id: 10
     },
     {
-      image: '../mongodb.svg',
+      image: '/mongodb.svg',
       title: 'MongoDB',
       link: 'https://www.mongodb.com/',
       id: 11
@@ -73,13 +73,13 @@ export const data = {
       id: 12
     },
     {
-      image: '../styled-components.svg',
+      image: '/styled-components.svg',
       title: 'Styled-Co',
       link: 'https://styled-components.com/',
       id: 13
     },
     {
-      image: '../material-ui.svg',
+      image: '/material-ui.svg',
       title: 'Material UI',
       link: 'https://styled-components.com/',
       id: 14
@@ -91,7 +91,7 @@ export const data = {
       id: 15
     },
     {
-      image: '../google-cloud.svg',
+      image: '/google-cloud.svg',
       title: 'Google Cloud',
       link: 'https://console.cloud.google.com/',
       id: 16
@@ -103,7 +103,7 @@ export const data = {
       id: 17
     },
     {
-      image: '../testing-library-red.svg',
+      image: '/testing-library-red.svg',
       title: 'React Testing L',
       link: 'https://testing-library.com/',
       id: 18
@@ -124,7 +124,7 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-        '../mongodb.svg',
+        '/mongodb.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
       ],
       image: {
@@ -158,7 +158,7 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
-        '../styled-components.svg',
+        '/styled-components.svg',
       ],
       image: {
         url: '/sds.png'
@@ -173,8 +173,8 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-        '../mongodb.svg',
-        '../styled-components.svg',
+        '/mongodb.svg',
+        '/styled-components.svg',
       ],
       image: {
         url: '/coming-soon.svg'
@@ -194,8 +194,7 @@ export const data = {
     {
       id: 'cl41bd91j4h2j0b14h717fxus',
       title: 'Milky Way Universe',
-      description: 'The web interface with a lot of using Javascript and HTML. The UI is almost identical' +
-        ' produce movement by starlights with dark bg and animations.',
+      description: 'The UI is almost identical produce movement by star lights with dark bg, animations with a lot of using Javascript and HTML.',
       link: 'https://github.com/MaximGordiyenko/Universe',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/dinophp.svg'
@@ -204,7 +203,7 @@ export const data = {
     {
       id: 'cl41besg84ibz0b0y517qkj02',
       title: 'Job-Offer Book',
-      description: '',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!',
       link: 'https://github.com/MaximGordiyenko/test-react-spring-2022',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/elixir.svg'
@@ -223,7 +222,7 @@ export const data = {
     {
       id: 'cl41bkdna4iz10c0z9zkv07wd',
       title: 'Lorem',
-      description: "Lorem impus dolor set...",
+      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!",
       link: '',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/matlab.svg'
@@ -232,7 +231,7 @@ export const data = {
     {
       id: 'cl44471kx052f0b0ygn5837po',
       title: 'Lorem',
-      description: 'Lorem impus dolor set...',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!',
       link: '',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nrwl.svg'
@@ -263,7 +262,7 @@ export const data = {
     },
     {
       title: "StackOverFlow",
-      icon: "stackoverflow.svg",
+      icon: "/stackoverflow.svg",
       link: "https://stackoverflow.com/users/5420542/maxim-gordiyenko?tab=profile",
     },
     {

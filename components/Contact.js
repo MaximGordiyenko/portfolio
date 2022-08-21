@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Contact = ({social}) => {
   return (
     <div className="pb-20">
@@ -53,10 +55,12 @@ const Contact = ({social}) => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex gap-3 items-center hover:bg-slate-900 p-2 transition duration-300">
-                <img
+                <Image
                   className="w-[30px] h-[30px] rounded-full"
                   src={item.icon}
-                  alt=""
+                  alt={item.icon}
+                  width='36px'
+                  height='36px'
                 />
                 <h1 className="text-sky-600 hover:text-sky-400">{item.title}</h1>
               </a>

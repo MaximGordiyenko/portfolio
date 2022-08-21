@@ -1,16 +1,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['images.ctfassets.net']
+    domains: ['images.ctfassets.net', 'cdn.jsdelivr.net']
   },
-  // webpack: (config) => {
-  //   config.resolve.alias = {
-  //     ...config.resolve.alias,
-  //     react: "preact/compat",
-  //     "react-dom/test-utils": "preact/test-utils",
-  //     "react-dom": "preact/compat",
-  //   };
-  //
-  //   return config;
-  // },
 };

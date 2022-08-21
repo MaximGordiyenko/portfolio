@@ -1,3 +1,4 @@
+import Image from "next/image";
 
 const Skills = ({ skills }) => {
   return (
@@ -24,10 +25,12 @@ const Skills = ({ skills }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="item flex flex-col items-center justify-around group">
-            <img
+            <Image
               className="w-[60px] h-[60px] transition duration-300 group-hover:scale-110"
               src={skill.image}
-              alt=""
+              alt={skill.image}
+              width='50px'
+              height='50px'
             />
             <p className="text-center text-stone-600 font-mono mt-2 mb-6 hover:text-sky-600">{skill.title}</p>
           </a>
