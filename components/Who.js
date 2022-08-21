@@ -23,7 +23,7 @@ const Who = () => {
           className="text-cyan-800">?!</span>
         </h1>
         <div data-scroll="" className="text-lg text-gray-200" id="story">
-          <p>My name is Maxim Gordiyenko. I'm a frontend developer since 2019 living in Kiev, Ukraine.</p>
+          <p>My name is Maxim Gordiyenko. I am a frontend developer since 2019 living in Kiev, Ukraine.</p>
           <p>Since then, I have made a lot of projects like CRM in <span className='italic'>
             EPAM <sup className="text-gray-400 not-italic">®</sup> System Ukraine</span>, thereafter made marketplace for
              sale soil, timber in Norway company for local market.
@@ -35,7 +35,7 @@ const Who = () => {
           <p>Some period of life worked on UpWork so that find work-life balance like a <span
             className="text-gray-100">Lagom</span> inside of <span className="text-gray-100">Hygge</span>.</p>
           <p>In my spare time, learning new tech stacks, at least micro-services and algorithms.</p>
-          <p>My hobby is rock climbing, cos that’s my technique from burnout, moreover, I love salsa.</p>
+          <p>My hobby is rock climbing, cos that is my technique from burnout, moreover, I love salsa.</p>
         </div>
       </div>
     </div>

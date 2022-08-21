@@ -41,7 +41,7 @@ const Intro = ({characters}) => {
         animate={{opacity: 1}}
         transition={{duration: 0.4, delay: 1.4}}
         className="text-3xl text-center z-[1] overflow-hidden hover:animate-spin">
-        I'm a frontend developer
+        I am a frontend developer
       </m.p>
       <div className="flex item-center justify-content">
         <div className="relative w-[15px] h-[15px] bg-pink-600 rotate-45">
