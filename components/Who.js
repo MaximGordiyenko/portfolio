@@ -9,7 +9,7 @@ const Who = () => {
         data-scroll=""
         data-scroll-speed="2"
         className="w-[225px] h-[225px] rounded-full"
-        src="/avatar.png"
+        src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
         width='550px'
         height='700px'
         alt="who"
