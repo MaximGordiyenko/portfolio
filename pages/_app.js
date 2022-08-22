@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
           property="og:description"
           content="Maxim Hordiienko"
         />
-        <meta property="og:image" content="/avatar.jpg"/>
+        <meta property="og:image" content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"/>
         
         <meta property="twitter:card" content="summary_large_image"/>
         <meta property="twitter:title" content="Maxim Hordiienko"/>
@@ -31,11 +31,9 @@ function MyApp({ Component, pageProps }) {
           property="twitter:description"
           content="Maxim Hordiienko"
         />
-        <meta property="twitter:image" content="/avatar.jpg"/>
+        <meta property="twitter:image" content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"/>
         <meta name="apple-mobile-web-app-capable" content="yes"/>
         <meta name="mobile-web-app-capable" content="yes"/>
-        <title></title>
-        <title></title>
       </Head>
       <LazyMotion features={domAnimation}>
         <Component {...pageProps} />

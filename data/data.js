@@ -73,13 +73,13 @@ export const data = {
       id: 12
     },
     {
-      image: '/styled-components.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
       title: 'Styled-Co',
       link: 'https://styled-components.com/',
       id: 13
     },
     {
-      image: '/material-ui.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
       title: 'Material UI',
       link: 'https://styled-components.com/',
       id: 14
@@ -91,7 +91,7 @@ export const data = {
       id: 15
     },
     {
-      image: '/google-cloud.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/google-cloud_tgttqf.svg',
       title: 'Google Cloud',
       link: 'https://console.cloud.google.com/',
       id: 16
@@ -103,7 +103,7 @@ export const data = {
       id: 17
     },
     {
-      image: '/testing-library-red.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
       title: 'React Testing L',
       link: 'https://testing-library.com/',
       id: 18
@@ -123,12 +123,15 @@ export const data = {
       github: '',
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
       ],
       image: {
-        url: '/e-m.png'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187183/e-m_y50sxk.png'
       }
     },
     {
@@ -138,12 +141,12 @@ export const data = {
       demo: 'https://www.kortreistved.no/',
       github: '',
       technologies: [
-        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg',
-        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/css.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/sass.svg',
       ],
       image: {
-        url: '/Kortreistjord.png'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187402/Kortreistjord_xs7fwb.png'
       }
     },
     {
@@ -158,10 +161,11 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
-        '/styled-components.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/ant-design.svg',
       ],
       image: {
-        url: '/sds.png'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187443/sds_zymi3c.png'
       }
     },
     {
@@ -174,10 +178,10 @@ export const data = {
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
-        '/styled-components.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
       ],
       image: {
-        url: '/coming-soon.svg'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187480/coming-soon_dauprr.svg'
       }
     }
   ],
@@ -252,27 +256,27 @@ export const data = {
   social: [
     {
       title: "Github",
-      icon: "/github.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189975/github_bf12er.svg",
       link: "https://github.com/MaximGordiyenko?tab=repositories",
     },
     {
       title: "Facebook",
-      icon: "/facebook.png",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189974/facebook_vouo7j.png",
       link: "https://www.facebook.com/GordiyenkoMaxim",
     },
     {
       title: "StackOverFlow",
-      icon: "/stackoverflow.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189975/stackoverflow_idgkse.svg",
       link: "https://stackoverflow.com/users/5420542/maxim-gordiyenko?tab=profile",
     },
     {
       title: "Codepen",
-      icon: "/codepen.png",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661190080/codepen_ehneqe.png",
       link: "https://codepen.io/maximgordiyenko",
     },
     {
       title: "My blog",
-      icon: "/blogger.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189974/blogger_z0fmbm.svg",
       link: "",
     },
   ]
