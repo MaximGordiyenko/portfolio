@@ -61,7 +61,7 @@ export const data = {
       id: 10
     },
     {
-      image: '/mongodb.svg',
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
       title: 'MongoDB',
       link: 'https://www.mongodb.com/',
       id: 11
@@ -124,7 +124,7 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-        '/mongodb.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
       ],
       image: {
@@ -173,7 +173,7 @@ export const data = {
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-        '/mongodb.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
         '/styled-components.svg',
       ],
       image: {
