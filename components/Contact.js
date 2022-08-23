@@ -34,6 +34,10 @@ const Contact = ({ social }) => {
         setMessage('');
       }
     });
+    setSubmitted(true);
+    setName('');
+    setEmail('');
+    setMessage('');
   };
   
   return (

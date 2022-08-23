@@ -4,12 +4,15 @@ export default function (req, res) {
   let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
     port: 465,
-    host: "smtp.gmail.com",
+    host: "imap.gmail.com",
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD,
     },
     secure: true,
+    tls: {
+      secureProtocol: "TLSv1_method"
+    }
   });
   
   const mailData = {
