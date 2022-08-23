@@ -24,7 +24,6 @@ const Index = () => {
       watch={[]}
       containerRef={containerRef}>
       <Cursor />
-    
       <div data-scroll-container="" ref={containerRef}>
         <Intro characters={data.characters}/>
         <Who />

@@ -1,6 +1,13 @@
 import Image from "next/image";
+import { useState } from "react";
 
 const Contact = ({social}) => {
+  const [data, setData] = useState({
+    name: '',
+    email: '',
+    subject: '',
+  });
+  
   return (
     <div className="pb-20">
       <h1 className="text-center text-4xl mt-14 md:mt-28 mb-10">

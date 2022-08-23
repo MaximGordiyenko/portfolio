@@ -32,7 +32,7 @@ const Skills = ({ skills }) => {
               width='50px'
               height='50px'
             />
-            <p className="text-center text-stone-600 font-mono mt-2 mb-6 hover:text-sky-600">{skill.title}</p>
+            <p className="text-center text-stone-400 font-mono mt-2 mb-6 hover:text-sky-600">{skill.title}</p>
           </a>
         ))}
       </div>

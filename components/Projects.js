@@ -15,7 +15,7 @@ const Projects = ({ projects }) => {
               : "flex-col lg:flex-row-reverse"
           }`}>
           <div data-scroll="" data-scroll-speed="3" className="lg:flex-1">
-            <div className="border-[#888] border-2 rounded-[20px] overflow-hidden">
+            <div className="border-[#888] border-2 rounded-[20px] overflow-hidden shadow-2xl shadow-gray-900">
               <div className="border-black border-[8px]">
                 <Image
                   className="w-full rounded-[12px]"
@@ -53,7 +53,7 @@ const Projects = ({ projects }) => {
                 rel="noopener noreferrer"
                 className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-gradient-to-r from-sky-500 to-sky-700 hover:from-sky-700 hover:to-sky-500">
                 <BiLinkExternal size={25}/>
-                <span className='hover:text-gray-200'> Live Demo</span>
+                <span className='hover:text-gray-200'>Official Site</span>
               </a>
               <a
                 href={project.github}

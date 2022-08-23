@@ -19,87 +19,87 @@ export const data = {
       id: 3
     },
     {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
-      title: 'Typescript',
-      link: 'https://www.typescriptlang.org/',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+      title: 'Styled-Co',
+      link: 'https://styled-components.com/',
       id: 4
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-      title: 'NodeJS',
-      link: 'https://nodejs.org/',
-      id: 5
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
-      title: 'React',
-      link: 'https://reactjs.org/',
-      id: 6
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg',
-      title: 'NextJS',
-      link: 'https://nextjs.org/',
-      id: 7
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
-      title: 'i18n',
-      link: 'https://www.i18next.com/',
-      id: 8
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
-      title: 'Redux',
-      link: 'https://redux.js.org/',
-      id: 9
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg',
       title: 'TailwindCSS',
       link: 'https://tailwindcss.com/',
-      id: 10
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
-      title: 'MongoDB',
-      link: 'https://www.mongodb.com/',
-      id: 11
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/figma.svg',
-      title: 'Figma',
-      link: 'https://www.figma.com/',
-      id: 12
-    },
-    {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
-      title: 'Styled-Co',
-      link: 'https://styled-components.com/',
-      id: 13
-    },
-    {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
-      title: 'Material UI',
-      link: 'https://styled-components.com/',
-      id: 14
+      id: 5
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/git.svg',
       title: 'Git',
       link: 'https://git-scm.com/',
+      id: 6
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
+      title: 'MongoDB',
+      link: 'https://www.mongodb.com/',
+      id: 7
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
+      title: 'MongooseJS',
+      link: 'https://mongoosejs.com/',
+      id: 8
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
+      title: 'ExpressJS',
+      link: 'https://expressjs.com/',
+      id: 9
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
+      title: 'React',
+      link: 'https://reactjs.org/',
+      id: 10
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
+      title: 'NodeJS',
+      link: 'https://nodejs.org/',
+      id: 11
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
+      title: 'Typescript',
+      link: 'https://www.typescriptlang.org/',
+      id: 12
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg',
+      title: 'NextJS',
+      link: 'https://nextjs.org/',
+      id: 13
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
+      title: 'i18n',
+      link: 'https://www.i18next.com/',
+      id: 14
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
+      title: 'Redux',
+      link: 'https://redux.js.org/',
       id: 15
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/google-cloud_tgttqf.svg',
-      title: 'Google Cloud',
-      link: 'https://console.cloud.google.com/',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
+      title: 'Material UI',
+      link: 'https://styled-components.com/',
       id: 16
     },
     {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
-      title: 'ES Lint',
-      link: 'https://eslint.org/',
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/jira.svg',
+      title: 'Jira',
+      link: 'https://jira.atlassian.com/',
       id: 17
     },
     {
@@ -113,12 +113,7 @@ export const data = {
     {
       id: 'cl41946uh4f9k0ezzm3mqjkn5',
       title: 'EPAM System Ukraine',
-      description: "Since 2019 I developed CRM for an American pharmaceutical company that allows vendors to" +
-        " distribute pharmaceuticals worldwide. I worked through two weeks of the scrum cycle with 20 devs," +
-        " including the team leader and a business analyst involved in assessing the backlog. " +
-        "There was an investigative issue regarding database restrictions and the amount of data collected on the" +
-        " client side. From my perspective, the compromise is to segregate the data from the text and store it in a" +
-        " database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. And last but not least is communication with the team if hit a problem I will always turn to colleagues when google is no longer helping me.",
+      description: `Jun, 2019 — Jan, 2021 I developed CRM for an American pharmaceutical company that allows vendors to distribute pharmaceuticals worldwide. I worked through two weeks of the Scrum cycle with 20 devs, including the team leader and a business analyst involved in assessing the backlog. There was an investigative issue regarding database restrictions and the amount of data collected on the client side. From my perspective, the compromise is to segregate the data from the text and store it in a database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. Response for resolve bugs, refactoring. Tech: React, React-redux, Thunk, styled-components, Formik, NodeJs, Express, MongoDB, Mongoose.`,
       demo: 'https://www.mckesson.com',
       github: '',
       technologies: [
@@ -126,9 +121,13 @@ export const data = {
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
-        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/eslint.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/jira.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661283361/scrum_kz3p14.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
       ],
       image: {
         url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187183/e-m_y50sxk.png'
@@ -137,13 +136,17 @@ export const data = {
     {
       id: 'cl4196ljg4fde0c0zjrk065a2',
       title: 'Kortreistjord Norway',
-      description: 'The marketplace for selling soil and timber at Norwegian company. Markup & Design mailing with React-Email-Editor. Fetching orders data to the UI using React-PDF. Provide SEO optimisation for most important pages with React-Helmet. Connecting FB & Google authorization with the UI. Making forms using React final-form.',
+      description: `Mar, 2021 — Nov, 2021 I developed marketplace for selling soil and timber at Norwegian company. Markup & Design mailing with React-Email-Editor. Fetching orders data to fill the table, Generate PDF base on API use React-PDF library. Provide SEO optimisation for most important pages with React-Helmet. Connecting FB & Google authorization with the UI via Google Cloud Console. Making forms using React final-form and design with styled-components. Team can feel free communicat directly with customer on any issues. Tasks was delivered  in Jira. Tech: React, React-Email-Editor, React-PDF, Google Cloud Console. Ad Sense, Google Analytics.`,
       demo: 'https://www.kortreistved.no/',
       github: '',
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
-        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/sass.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661280140/logo_kfmlzk.png',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/google-gmail.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/google-analytics.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/jira.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661283361/scrum_kz3p14.svg',
       ],
       image: {
         url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187402/Kortreistjord_xs7fwb.png'
@@ -152,17 +155,19 @@ export const data = {
     {
       id: 'cl4198jlh4fb10b0yca75wulh',
       title: 'Hygge Software',
-      description: "The SDS project is a marketplace admin panel for schools. Schools can make requests for the goods" +
-        " they need, donors (organizations or parents) can donate the goods accordingly. I deal with React," +
-        " Redux-toolkit, rtk-query, antd, styled-components. The team consist of 6 frontend, backend" +
-        " developers, QA Engineer PM, Scrum Master",
+      description: `May, 2022 — Now I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions. Tech: React, react-redux, styled-components, Formik, Ant Design, ESLint.`,
       demo: 'https://hygge.software/',
       github: '',
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/ant-design.svg',
+        'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mockflow-icon.svg',
+        'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/figma.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661282097/trello_bhzlvw.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661283361/scrum_kz3p14.svg',
       ],
       image: {
         url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187443/sds_zymi3c.png'
@@ -170,26 +175,30 @@ export const data = {
     },
     {
       id: 'cl5b8iefippxy0cy9quph5vz4',
-      title: 'Coming soon...',
-      description: 'Lorem impus dolor set ...',
-      demo: '',
+      title: 'UpWork',
+      description: `Some time in the middle of 2021 till 2022 time was spent on own project and refresh knowledge and collaborate with some acquaintances on freelance. It was part-time employment on application that generated QR code for menu of restaurant.`,
+      demo: 'https://www.upwork.com',
       github: '',
       technologies: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661279747/visx.dark_jmlwfh.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
       ],
       image: {
-        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187480/coming-soon_dauprr.svg'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661285041/upwork_ne7kyu.svg'
       }
-    }
+    },
   ],
   hobby: [
     {
       id: 'cl41bb6ga4i6v0c0zc4nud16j',
       title: 'Movify',
-      description: 'React application about movies with NodeJs and MongoDB on a board.',
+      description: 'The app is aggregator of moves poster allows you search, add, delete. Tech: React, react-redux,' +
+        ' Thunk, styled-components, Material UI, visx, NodeJS, Express, axios, MongoDB, mongoose, passport.',
       link: 'https://github.com/MaximGordiyenko/movify',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/lerna.svg'
@@ -198,7 +207,8 @@ export const data = {
     {
       id: 'cl41bd91j4h2j0b14h717fxus',
       title: 'Milky Way Universe',
-      description: 'The UI is almost identical produce movement by star lights with dark bg, animations with a lot of using Javascript and HTML.',
+      description: 'The UI is almost identical produce movement by star-lights with dark bg, animations with a lot' +
+        ' of using Javascript and HTML. Tech: HTML, CSS, Canvas, JavaScript.',
       link: 'https://github.com/MaximGordiyenko/Universe',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/dinophp.svg'
@@ -206,8 +216,9 @@ export const data = {
     },
     {
       id: 'cl41besg84ibz0b0y517qkj02',
-      title: 'Job-Offer Book',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!',
+      title: 'Job-Offer Notes',
+      description: 'Simple pet project provide functionality like filter, searching by title, description so on in' +
+        ' real time. Tech: react, react-redux, styled-components, react-hook-form',
       link: 'https://github.com/MaximGordiyenko/test-react-spring-2022',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/elixir.svg'
@@ -225,17 +236,18 @@ export const data = {
     },
     {
       id: 'cl41bkdna4iz10c0z9zkv07wd',
-      title: 'Lorem',
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!",
-      link: '',
+      title: 'The Maxim Gordiyenko Portfolio',
+      description: "Base on Next.JS framework also uses TailwindCSS moreiver allows all connectivity with me via" +
+        " Telegram, Facebook and email.",
+      link: 'https://github.com/MaximGordiyenko/portfolio',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/matlab.svg'
       }
     },
     {
       id: 'cl44471kx052f0b0ygn5837po',
-      title: 'Lorem',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque id nam sit unde voluptatem?!',
+      title: 'Blog',
+      description: 'The Blog collect my experience of programing issues that I faced us during ',
       link: '',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nrwl.svg'
@@ -257,7 +269,7 @@ export const data = {
     {
       title: "Github",
       icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189975/github_bf12er.svg",
-      link: "https://github.com/MaximGordiyenko?tab=repositories",
+      link: "https://github.com/MaximGordiyenko/",
     },
     {
       title: "Facebook",
@@ -270,9 +282,9 @@ export const data = {
       link: "https://stackoverflow.com/users/5420542/maxim-gordiyenko?tab=profile",
     },
     {
-      title: "Codepen",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661190080/codepen_ehneqe.png",
-      link: "https://codepen.io/maximgordiyenko",
+      title: "Telegram",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661269226/4375108_logo_telegram_icon_cqbzfh.svg",
+      link: "https://telegram.me/MaximGordiyenko",
     },
     {
       title: "My blog",
