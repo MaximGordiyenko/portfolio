@@ -272,9 +272,9 @@ export const data = {
       link: "https://github.com/MaximGordiyenko/",
     },
     {
-      title: "Facebook",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189974/facebook_vouo7j.png",
-      link: "https://www.facebook.com/GordiyenkoMaxim",
+      title: "LinkedIn",
+      icon: "https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/linkedin-icon.svg",
+      link: "https://www.linkedin.com/in/maxim-gordiyenko/",
     },
     {
       title: "StackOverFlow",
