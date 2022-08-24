@@ -7,7 +7,7 @@ const Contact = ({ social }) => {
   
   const sendEmails = (formData) => {
     emailjs
-      .send(process.env.EMAIL_JS_SERVICE_ID, process.env.EMAIL_JS_TEMPLATE, formData, process.env.EMAIL_JS_PUBLIC_KEY)
+      .send(process.env.EMAIL_JS_SERVICE_ID, process.env.EMAIL_JS_TEMPLATE, formData, 'hNf_fzRzIUoOqeR05')
       .then(result => console.log(result.text), error => console.log(error.text));
     reset();
   };
