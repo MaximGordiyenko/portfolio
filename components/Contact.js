@@ -1,27 +1,15 @@
 import Image from "next/image";
 import { useForm } from 'react-hook-form';
-import axios from 'axios';
+import emailjs from '@emailjs/browser';
 
 const Contact = ({ social }) => {
   const { register, handleSubmit, errors, reset } = useForm();
   
-  const onSubmitForm = async (values) => {
-    let config = {
-      method: 'post',
-      url: `/api/contact`,
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      data: values,
-    };
-  
-    try {
-      const response = await axios(config);
-      console.log(response);
-      if (response.status === 200) {
-        reset();
-      }
-    } catch (err) {}
+  const sendEmails = (formData) => {
+    emailjs
+      .send(process.env.EMAIL_JS_SERVICE_ID, process.env.EMAIL_JS_TEMPLATE, formData, process.env.EMAIL_JS_PUBLIC_KEY)
+      .then(result => console.log(result.text), error => console.log(error.text));
+    reset();
   };
   
   return (
@@ -36,7 +24,7 @@ const Contact = ({ social }) => {
         <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
           <div className="flex-1">
             <form
-              onSubmit={handleSubmit(onSubmitForm)}
+              onSubmit={handleSubmit(sendEmails)}
               className="flex flex-col gap-2">
               <label htmlFor="name">Your name</label>
               <input
