@@ -1,35 +1,33 @@
-export default function (req, res) {
-  require('dotenv').config()
+import nodemailer from 'nodemailer';
+
+export default async (req, res) => {
+  const { name, email, message } = req.body;
   
-  let nodemailer = require('nodemailer')
   const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
     port: 465,
-    host: "imap.gmail.com",
+    secure: true,
     auth: {
       user: process.env.EMAIL,
       pass: process.env.PASSWORD,
     },
-    secure: true,
-    tls: {
-      secureProtocol: "TLSv1_method"
-    }
   });
   
-  const mailData = {
-    from: 'demo email',
-    to: process.env.EMAIL,
-    subject: `Message From ${req.body.name}`,
-    text: req.body.message + " | Sent from: " + req.body.email,
-    html: `<div>${req.body.message}</div><p>Sent from: ${req.body.email}</p>`
+  try {
+    const emailRes = await transporter.sendMail({
+      from: email,
+      to: 'maxim.gordiyenko@gmail.com',
+      subject: `Contact form submission from ${name}`,
+      html: `<p>You have a new contact form submission</p><br>
+      <p><strong>Name: </strong> ${name} </p><br>
+      <p><strong>Message: </strong> ${message} </p><br>
+      `,
+    });
+    
+    console.log('Message Sent', emailRes);
+  } catch (err) {
+    console.log(err);
   }
   
-  transporter.sendMail(mailData, function (err, info) {
-    if(err)
-      console.log(err)
-    else
-      console.log(info);
-  })
-  
-  console.log(req.body)
-  res.send('success')
-}
+  res.status(200).json(req.body);
+};

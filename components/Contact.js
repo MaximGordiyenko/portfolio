@@ -1,43 +1,27 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useForm } from 'react-hook-form';
+import axios from 'axios';
 
 const Contact = ({ social }) => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
-  const [submitted, setSubmitted] = useState(false);
+  const { register, handleSubmit, errors, reset } = useForm();
   
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log('Sending');
-    
-    let data = {
-      name,
-      email,
-      message
-    };
-    
-    fetch('/api/contact', {
-      method: 'POST',
+  const onSubmitForm = async (values) => {
+    let config = {
+      method: 'post',
+      url: `/api/contact`,
       headers: {
-        'Accept': 'application/json, text/plain, */*',
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
-      body: JSON.stringify(data)
-    }).then((res) => {
-      console.log('Response received');
-      if (res.status === 200) {
-        console.log('Response succeeded!');
-        setSubmitted(true);
-        setName('');
-        setEmail('');
-        setMessage('');
+      data: values,
+    };
+  
+    try {
+      const response = await axios(config);
+      console.log(response);
+      if (response.status === 200) {
+        reset();
       }
-    });
-    setSubmitted(true);
-    setName('');
-    setEmail('');
-    setMessage('');
+    } catch (err) {}
   };
   
   return (
@@ -52,7 +36,7 @@ const Contact = ({ social }) => {
         <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
           <div className="flex-1">
             <form
-              method="POST"
+              onSubmit={handleSubmit(onSubmitForm)}
               className="flex flex-col gap-2">
               <label htmlFor="name">Your name</label>
               <input
@@ -62,9 +46,7 @@ const Contact = ({ social }) => {
                 placeholder="John Doe"
                 required
                 minLength={3}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
+                {...register("name", { required: "Please enter your first name." })}
               />
               <label htmlFor="email">Your email</label>
               <input
@@ -73,24 +55,19 @@ const Contact = ({ social }) => {
                 name="email"
                 placeholder="johndoe@gmail.com"
                 required
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
+                {...register("email", { required: "Please enter your email." })}
               />
               <label htmlFor="subject">Subject</label>
               <input
                 type="text"
-                id="subject"
+                id="message"
                 name="message"
                 placeholder="I want to talk to you"
                 required
-                onChange={(e) => {
-                  setMessage(e.target.value);
-                }}
+                {...register("message", { required: "Please enter your message." })}
               />
               <button
-                type='submit'
-                onClick={(e)=>{handleSubmit(e)}}
+                type="submit"
                 className="mt-2 py-2 text-white rounded transition duration-600 flex justify-center items-center gap-[10px] bg-gradient-to-r from-sky-500 to-sky-700 hover:from-sky-700 hover:to-sky-500 hover:font-bold">
                 Send
               </button>
