@@ -34,15 +34,17 @@ const Intro = ({characters}) => {
           </Fragment>
         ))}
       </svg>
-      <m.p
+      <m.d
         data-scroll
         data-scroll-speed="1"
         initial={{opacity: 0}}
         animate={{opacity: 1}}
         transition={{duration: 0.4, delay: 1.4}}
-        className="text-3xl text-center z-[1] overflow-hidden hover:animate-spin">
-        I am a frontend developer
-      </m.p>
+        className="text-3xl text-center z-[1] overflow-hidden w-[100%]">
+        <div className="animate-[slide_3s_ease-in-out_forwards] opacity-0 translateX-[100%] ml-[50%]">
+          I am a frontend developer
+        </div>
+      </m.d>
       <div className="flex item-center justify-content">
         <div className="relative w-[15px] h-[15px] bg-pink-600 rotate-45">
           <div className="absolute w-[100%] h-[100%] bg-pink-600 rounded-[50%] left-[-50%]"></div>
