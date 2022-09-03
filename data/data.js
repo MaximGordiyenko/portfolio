@@ -20,13 +20,13 @@ export const data = {
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
-      title: 'Styled-Co',
+      title: 'Styled',
       link: 'https://styled-components.com/',
       id: 4
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg',
-      title: 'TailwindCSS',
+      title: 'Tailwind',
       link: 'https://tailwindcss.com/',
       id: 5
     },
@@ -44,13 +44,13 @@ export const data = {
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
-      title: 'MongooseJS',
+      title: 'Mongoose',
       link: 'https://mongoosejs.com/',
       id: 8
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
-      title: 'ExpressJS',
+      title: 'Express',
       link: 'https://expressjs.com/',
       id: 9
     },
@@ -92,7 +92,7 @@ export const data = {
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
-      title: 'Material UI',
+      title: 'MUI',
       link: 'https://styled-components.com/',
       id: 16
     },
@@ -104,7 +104,7 @@ export const data = {
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
-      title: 'React Testing L',
+      title: 'RTL',
       link: 'https://testing-library.com/',
       id: 18
     },
@@ -198,10 +198,10 @@ export const data = {
       id: 'cl41bb6ga4i6v0c0zc4nud16j',
       title: 'Movify',
       description: 'The app is aggregator of moves poster allows you search, add, delete. Tech: React, react-redux,' +
-        ' Thunk, styled-components, Material UI, visx, NodeJS, Express, axios, MongoDB, mongoose, passport.',
+        ' Thunk, styled-components, Material UI, visx, NodeJS, Express, axios, MongoDB, mongoose.',
       link: 'https://github.com/MaximGordiyenko/movify',
       icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/lerna.svg'
+        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/verdaccio.svg'
       }
     },
     {
@@ -221,14 +221,14 @@ export const data = {
         ' real time. Tech: react, react-redux, styled-components, react-hook-form',
       link: 'https://github.com/MaximGordiyenko/test-react-spring-2022',
       icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/elixir.svg'
+        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vuex-store.svg'
       }
     },
     {
       id: 'cl41bit6l4j2h0ezz5tk59n5j',
       title: 'Cryptofy',
       description: 'The price-tracking website for crypto assets in the rapidly growing cryptocurrency' +
-        ' space.',
+        ' space. Tech: React, React-Redux, NodeJS, MongoDB,',
       link: 'https://github.com/MaximGordiyenko/movify',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/imba.svg'
@@ -241,13 +241,13 @@ export const data = {
         " Telegram, Facebook and email.",
       link: 'https://github.com/MaximGordiyenko/portfolio',
       icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/matlab.svg'
+        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vala.svg'
       }
     },
     {
       id: 'cl44471kx052f0b0ygn5837po',
       title: 'Blog',
-      description: 'The Blog collect my experience of programing issues that I faced us during ',
+      description: `The Blog collect my experience of programing issues that I faced during the developing process include thoughts of future technologies.`,
       link: '',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nrwl.svg'

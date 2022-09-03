@@ -8,7 +8,7 @@ const Skills = ({ skills }) => {
         data-scroll-direction="horizontal"
         data-scroll-speed="-1"
         className="text-center text-3xl lg:text-4xl">
-        My skills & Knowledge
+        Skills - Tools - Knowledge
       </h1>
       <p
         data-scroll=""
@@ -29,8 +29,8 @@ const Skills = ({ skills }) => {
               className="w-[60px] h-[60px] transition duration-300 group-hover:scale-110"
               src={skill.image}
               alt={skill.image}
-              width='50px'
-              height='50px'
+              width="50px"
+              height="50px"
             />
             <p className="text-center text-stone-400 font-mono mt-2 mb-6 hover:text-sky-600">{skill.title}</p>
           </a>

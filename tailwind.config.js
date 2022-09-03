@@ -9,29 +9,28 @@ module.exports = {
       colors: {
         dark: "#101010",
       },
-      animation: {
-        slide: 'slide 3s ease-in-out forwards',
-      },
       keyframes: {
-        slide: {
+        right: {
           '0%': {
-            opacity: 0,
+            opacity: '100%',
             transform: 'translateX(100%)',
           },
-          '30%': {
-            opacity: 0,
-            transform: 'translateX(50%)',
-          },
-          '70%': {
-            opacity: 0,
-            transform: 'translateX(10%)',
-          },
           '100%': {
-            opacity: 1,
+            opacity: '100%',
             transform: 'translateX(-50%)',
           },
-        }
-      }
+        },
+        left: {
+          '0%': {
+            opacity: '1%',
+            transform: 'translateX(-200%)',
+          },
+          '100%': {
+            opacity: '100%',
+            transform: 'translateX(-50%)',
+          },
+        },
+      },
     },
   },
   plugins: [],

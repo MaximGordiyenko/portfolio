@@ -34,6 +34,7 @@ const Intro = ({characters}) => {
           </Fragment>
         ))}
       </svg>
+      <p className="tracking-[1rem] text-[0.5rem] mt-[-15px]">GORDIYENKO</p>
       <m.d
         data-scroll
         data-scroll-speed="1"
@@ -41,8 +42,11 @@ const Intro = ({characters}) => {
         animate={{opacity: 1}}
         transition={{duration: 0.4, delay: 1.4}}
         className="text-3xl text-center z-[1] overflow-hidden w-[100%]">
-        <div className="animate-[slide_3s_ease-in-out_forwards] opacity-0 translateX-[100%] ml-[50%]">
-          I am a frontend developer
+        <div className="animate-[right_3s_ease-in-out_forwards] ml-[50%] italic sm:text-[0.7rem] xl:text-[1.8rem]">
+          I am a frontend
+        </div>
+        <div className="animate-[left_3s_ease-in-out_forwards] ml-[50%] italic sm:text-[0.7rem] xl:text-[1.8rem]">
+          backend developer
         </div>
       </m.d>
       <div className="flex item-center justify-content">
