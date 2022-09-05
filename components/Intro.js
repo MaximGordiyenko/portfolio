@@ -42,10 +42,10 @@ const Intro = ({characters}) => {
         animate={{opacity: 1}}
         transition={{duration: 0.4, delay: 1.4}}
         className="text-3xl text-center z-[1] overflow-hidden w-[100%]">
-        <div className="animate-[right_3s_ease-in-out_forwards] ml-[50%] italic sm:text-[0.7rem] xl:text-[1.8rem]">
+        <div className="animate-[right_3s_ease-in-out_forwards] ml-[50%] italic">
           I am a frontend
         </div>
-        <div className="animate-[left_3s_ease-in-out_forwards] ml-[50%] italic sm:text-[0.7rem] xl:text-[1.8rem]">
+        <div className="animate-[left_3s_ease-in-out_forwards] ml-[50%] italic">
           backend developer
         </div>
       </m.d>

@@ -229,7 +229,7 @@ export const data = {
       title: 'Cryptofy',
       description: 'The price-tracking website for crypto assets in the rapidly growing cryptocurrency' +
         ' space. Tech: React, React-Redux, NodeJS, MongoDB,',
-      link: 'https://github.com/MaximGordiyenko/movify',
+      link: 'https://github.com/MaximGordiyenko/cryptofy',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/imba.svg'
       }
