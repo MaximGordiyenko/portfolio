@@ -120,6 +120,7 @@ export const data = {
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
@@ -127,7 +128,6 @@ export const data = {
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/jira.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661283361/scrum_kz3p14.svg',
-        'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
       ],
       image: {
         url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187183/e-m_y50sxk.png'
@@ -155,7 +155,7 @@ export const data = {
     {
       id: 'cl4198jlh4fb10b0yca75wulh',
       title: 'Hygge Software',
-      description: `May, 2022 — Now I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions. Tech: React, react-redux, styled-components, Formik, Ant Design, ESLint.`,
+      description: `May 2022 — Now I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions. Tech: React, react-redux, styled-components, Formik, Ant Design, ESLint.`,
       demo: 'https://hygge.software/',
       github: '',
       technologies: [
@@ -183,10 +183,10 @@ export const data = {
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
-        'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
-        'https://res.cloudinary.com/maxigord/image/upload/v1661279747/visx.dark_jmlwfh.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+        'https://res.cloudinary.com/maxigord/image/upload/v1661279747/visx.dark_jmlwfh.svg',
       ],
       image: {
         url: 'https://res.cloudinary.com/maxigord/image/upload/v1661285041/upwork_ne7kyu.svg'
@@ -268,12 +268,12 @@ export const data = {
   social: [
     {
       title: "Github",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189975/github_bf12er.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663024005/github-green_sb1h2k.png",
       link: "https://github.com/MaximGordiyenko/",
     },
     {
       title: "LinkedIn",
-      icon: "https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/linkedin-icon.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663021851/linkinId_rvrwc8.png",
       link: "https://www.linkedin.com/in/maxim-gordiyenko/",
     },
     {
@@ -283,17 +283,24 @@ export const data = {
     },
     {
       title: "Telegram",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661269226/4375108_logo_telegram_icon_cqbzfh.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663022112/teleg_oh3tgb.png",
       link: "https://telegram.me/MaximGordiyenko",
     },
     {
       title: "My blog",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189974/blogger_z0fmbm.svg",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663023262/blog_dzq8pc.png",
       link: "",
     },
-  ]
+  ],
+  about: `My name is Maxim Gordiyenko. I am a frontend developer since 2019 living in Kiev, Ukraine.
+          Since then, I have made a lot of projects like CRM in EPAM System Ukraine, thereafter made marketplace for sale soil, timber in Norway company for local market.
+          Some period of life worked on UpWork so that find work-life balance like a Lagom inside Hygge.
+          Last but not least is communication with the team quite important skill if hit a problem I will always turn to colleagues when google is no longer helping me.
+          Besides the e-commerce coding, I also love writing a about faced up issues and the ways to solve it.
+          In my spare time, learning new tech stacks, time to time back to Udemy.com in order to refresh knowledge of JavaScript:
+          "Understanding the Weird Parts", check new ability of React or start off new course "Microservices" and algorithms.
+          Hobby is rock climbing, cos that is my technique from burnout, moreover, I love salsa.`
 };
-
 
 export const canvasImages = [
   "html",

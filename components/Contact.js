@@ -1,8 +1,9 @@
 import Image from "next/image";
 import { useForm } from 'react-hook-form';
 import emailjs from '@emailjs/browser';
+import Modal from "./Modal";
 
-const Contact = ({ social }) => {
+const Contact = ({ social, data }) => {
   const { register, handleSubmit, errors, reset } = useForm();
   
   const sendEmails = (formData) => {
@@ -74,12 +75,13 @@ const Contact = ({ social }) => {
                   className="w-[30px] h-[30px] rounded-full"
                   src={item.icon}
                   alt={item.icon}
-                  width="36px"
-                  height="36px"
+                  width="29px"
+                  height="29px"
                 />
                 <h1 className="text-sky-600 hover:text-sky-400">{item.title}</h1>
               </a>
             ))}
+            <Modal social={social} data={data}/>
           </div>
         </div>
       </div>

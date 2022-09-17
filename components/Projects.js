@@ -15,7 +15,7 @@ const Projects = ({ projects }) => {
               : "flex-col lg:flex-row-reverse"
           }`}>
           <div data-scroll="" data-scroll-speed="3" className="lg:flex-1">
-            <div className="border-[#888] border-2 rounded-[20px] overflow-hidden shadow-2xl shadow-gray-900">
+            <div className="border-[#888] border-2 rounded-[20px] overflow-hidden shadow-2xl">
               <div className="border-black border-[8px]">
                 <Image
                   className="w-full rounded-[12px]"

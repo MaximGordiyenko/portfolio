@@ -8,7 +8,7 @@ const Skills = ({ skills }) => {
         data-scroll-direction="horizontal"
         data-scroll-speed="-1"
         className="text-center text-3xl lg:text-4xl">
-        Skills - Tools - Knowledge
+        Skills
       </h1>
       <p
         data-scroll=""

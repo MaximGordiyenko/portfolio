@@ -11,7 +11,7 @@ import { data } from '../data/data';
 
 const Index = () => {
   const containerRef = useRef(null);
-
+  
   return (
     <LocomotiveScrollProvider
       options={{
@@ -23,14 +23,14 @@ const Index = () => {
       }}
       watch={[]}
       containerRef={containerRef}>
-      <Cursor />
+      <Cursor/>
       <div data-scroll-container="" ref={containerRef}>
         <Intro characters={data.characters}/>
-        <Who />
-        <Skills skills={data.skills} />
-        <Projects projects={data.projects} />
-        <Hobby hobby={data.hobby} />
-        <Contact social={data.social}/>
+        <Who/>
+        <Skills skills={data.skills}/>
+        <Projects projects={data.projects}/>
+        <Hobby hobby={data.hobby}/>
+        <Contact social={data.social} data={data}/>
       </div>
     </LocomotiveScrollProvider>
   );
