@@ -20,7 +20,7 @@ Font.register({
   ],
 });
 
-const Modal = ({social, data}) => {
+const Modal = ({ data }) => {
   const [open, setOpen] = useState(false);
   
   return (
@@ -35,8 +35,8 @@ const Modal = ({social, data}) => {
         <Portal selector="#modal">
           <div className="backdrop">
             <div className="modal">
-              <PDFViewer style={{ height: "100%", width: "100%" }}>
-                <Resume social={social} data={data}/>
+              <PDFViewer style={{ height: "100%", width: "100%" }} fileName="MaximHordiienko.pdf" >
+                <Resume data={data}/>
               </PDFViewer>
               <button type="button" onClick={() => setOpen(false)} className="close">x</button>
             </div>
@@ -65,13 +65,17 @@ const Modal = ({social, data}) => {
               .close {
                 color: black;
                 position: absolute;
-                top: 10px;
-                right: 15px;
+                top: 20px;
+                right: 25px;
               }
               
               .close:hover {
                 color: palevioletred;
-                font-size: 20px;
+                border: 0.5px solid red;
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+                line-height: 1px;
               }
             `}</style>
           </div>

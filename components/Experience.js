@@ -1,12 +1,10 @@
 import React from "react";
-import { Link, Text, View } from "@react-pdf/renderer";
-import Image from "./Image";
+import { Text, View } from "@react-pdf/renderer";
 import { darken } from "polished";
-import { experiences } from "../data";
 import theme from "../theme";
 
-const Experience = ({data}) => {
-  const { colors, fontSizes, fontWeights, sizes, space } = theme;
+const Experience = ({ data }) => {
+  const { colors, fontSizes, fontWeights, space } = theme;
   
   const titleStyles = {
     backgroundColor: darken(0.1, colors.cwgYellow),
@@ -20,59 +18,22 @@ const Experience = ({data}) => {
   const listItemStyles = {
     flexDirection: "row",
     fontSize: fontSizes.xxxs,
-    marginBottom: space.sm,
-  };
-  
-  const imageStyles = {
-    marginBottom: space.xs,
-    maxHeight: 22,
-    objectFit: "contain",
-    width: sizes.logos,
+    marginBottom: space.xxs,
   };
   
   return (
-    <View>
-      <View style={{ fontSize: fontSizes.xxxs }}>
-        <Text style={titleStyles}>Professional Experience</Text>
-        {data.projects.map(e => (
-          <View key={e.id} style={listItemStyles}>
-            <View style={{ width: sizes.logos }}>
-              <Image src={e.logo} style={imageStyles} />
-              {e.date && (
-                <Text style={{ fontSize: fontSizes.xxxxs }}>{e.date}</Text>
-              )}
-              {e.location && (
-                <Text style={{ fontSize: fontSizes.xxxxs }}>{e.location}</Text>
-              )}
-            </View>
-            <View wrap={false} style={{ marginLeft: space.sm, maxWidth: 312 }}>
-              <Text
-                style={{
-                  fontWeight: fontWeights.bold,
-                  marginBottom: space.xxs,
-                }}
-              >
-                {e.title} @ {e.company}
-              </Text>
-              {e.tasks.map((task, j) => (
-                <Text key={`${i}-${j}`} style={{ marginBottom: space.xs }}>
-                  • {task.copy}
-                  {task.link && [
-                    ` `,
-                    <Link
-                      key={`link-${i}-${j}`}
-                      src={task.link.url}
-                      style={{ textDecoration: "underline" }}
-                    >
-                      {task.link.label}
-                    </Link>,
-                  ]}
-                </Text>
-              ))}
-            </View>
+    <View style={{ fontSize: fontSizes.xxxs }}>
+      <Text style={titleStyles}>Professional Experience</Text>
+      {data?.projects?.map(e =>
+        <View key={e.id} style={listItemStyles}>
+          <View wrap={false} style={{ marginLeft: space.sm, maxWidth: 312 }}>
+          <Text style={{ fontSize: fontSizes.xxxs, fontWeight: fontWeights.bold }}>{e.company}, {e.period}</Text>
+          <Text style={{ fontWeight: fontWeights.body, marginBottom: space.xxs, }}>
+            {e.title} {e.description}
+          </Text>
           </View>
-        ))}
-      </View>
+        </View>
+      )}
     </View>
   );
 };

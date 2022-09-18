@@ -15,7 +15,7 @@ const Contact = ({ social, data }) => {
   
   return (
     <div className="pb-20">
-      <h1 className="text-center text-4xl mt-14 md:mt-28 mb-10">
+      <h1 className="text-center text-4xl mt-14 md:mt-28 mb-5">
         Get in touch
       </h1>
       <div
@@ -81,7 +81,7 @@ const Contact = ({ social, data }) => {
                 <h1 className="text-sky-600 hover:text-sky-400">{item.title}</h1>
               </a>
             ))}
-            <Modal social={social} data={data}/>
+            <Modal data={data}/>
           </div>
         </div>
       </div>

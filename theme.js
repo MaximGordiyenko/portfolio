@@ -1,4 +1,3 @@
-// Simplified replica of my portfolio's theme
 const theme = {
   colors: {
     white: "#FFFFFF",
@@ -64,7 +63,7 @@ const theme = {
   sizes: {
     icons: 15,
     sidebar: 120,
-    main: 411, // Page (595) - (Sidebar + padding) (152) - Page padding (32)
+    main: 411,
     logos: 42,
   },
 };

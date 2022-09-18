@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Skills = ({ skills }) => {
   return (
-    <div className="lg:min-h-[70vh] px-[5vw] py-[80px] flex flex-col items-center justify-center z-[4]">
+    <div className="lg:min-h-[70vh] px-[5vw] pt-[40px] pb-[60px] flex flex-col items-center justify-center z-[4]">
       <h1
         data-scroll=""
         data-scroll-direction="horizontal"
@@ -14,7 +14,7 @@ const Skills = ({ skills }) => {
         data-scroll=""
         data-scroll-direction="horizontal"
         data-scroll-speed="1"
-        className="description text-lg text-center my-[30px] text-gray-400">
+        className="description text-lg text-center mt-[8px] mb-[16px] text-gray-400">
         Technologies and languages that I use to make my product everyday
       </p>
       <div className="grid justify-center grid-cols-4 md:grid-cols-6 gap-y-[10px] md:gap-y-[20px]">

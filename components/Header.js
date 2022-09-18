@@ -7,12 +7,8 @@ const Header = () => {
   
   return (
     <View style={{ marginBottom: space.sm }}>
-      <Text style={{
-        fontSize: fontSizes.xl,
-        fontWeight: fontWeights.extraBold,
-        marginBottom: space.xs,
-      }}>
-        Maxim Gordiyenkp
+      <Text style={{ fontSize: fontSizes.xl, fontWeight: fontWeights.extraBold, marginBottom: space.xs }}>
+        Maxim Hordiienko
       </Text>
       <Text style={{
         backgroundColor: colors.primary,

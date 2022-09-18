@@ -1,28 +1,20 @@
 import React from 'react';
-import { Page, Text, View, Document, StyleSheet } from '@react-pdf/renderer';
+import { Page, View, Document } from '@react-pdf/renderer';
 import Sidebar from "./Sidebar";
 import theme from "../theme";
 import Header from "./Header";
 import About from "./About";
 import Experience from "./Experience";
-import Education from "./Education";
+import Footer from "./Footer";
 
-const styles = StyleSheet.create({
-  document: {},
-  page: {
-    flexDirection: 'column',
-  },
-  section: {
-    margin: 10,
-    padding: 10,
-    flexGrow: 1
-  }
-});
 
-const Resume = ({social, data}) => {
+const Resume = ({ data }) => {
   const { colors, fonts, sizes, space } = theme;
   return (
-    <Document style={styles.document}>
+    <Document
+      creator="Maxim Hordiienko"
+      keywords="front-end, full-stack, developer, cv, resume"
+      title="Maxim's Hordiienko Resume">
       <Page
         size="A4"
         style={{
@@ -30,26 +22,20 @@ const Resume = ({social, data}) => {
           color: colors.black,
           flexDirection: "row",
           fontFamily: fonts.body,
-          padding: space.sm,
+          padding: space.xxs,
         }}>
-        <View
-          style={{ backgroundColor: colors.background, flexDirection: "row" }}>
-          <Sidebar social={social}/>
-          <View
-            style={{
-              padding: space.sm,
-              paddingTop: space.xs,
-              width: sizes.main,
-            }}>
+        <View style={{ backgroundColor: colors.background, flexDirection: "row" }}>
+          <Sidebar data={data}/>
+          <View style={{ paddingRight: space.xxs, paddingLeft: space.xxs, width: sizes.main}}>
             <Header/>
             <About data={data}/>
             <Experience data={data}/>
-            <Education data={data}/>
+            <Footer/>
           </View>
         </View>
       </Page>
     </Document>
   );
-}
+};
 
 export default Resume;

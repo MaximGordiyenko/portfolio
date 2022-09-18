@@ -1,20 +1,12 @@
 import React from "react";
 import { Text, View } from "@react-pdf/renderer";
-import { about } from "../data";
 import theme from "../theme";
 
-const About = ({data}) => {
-  const { fontSizes, fontWeights, lineHeights, space } = theme;
-  console.log(data.about);
+const About = ({ data }) => {
+  const { fontSizes, lineHeights, space } = theme;
   return (
-    <View style={{ marginBottom: space.sm, paddingVertical: space.xs }}>
-      <Text
-        style={{
-          fontSize: fontSizes.xxxs,
-          fontWeight: fontWeights.extraBold,
-          lineHeight: lineHeights.sm,
-          paddingHorizontal: space.sm,
-        }}>
+    <View style={{ marginBottom: space.xxs }}>
+      <Text style={{ fontSize: fontSizes.xxxs, lineHeight: lineHeights.sm, paddingHorizontal: space.sm }}>
         {data.about}
       </Text>
     </View>

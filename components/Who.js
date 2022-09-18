@@ -8,10 +8,10 @@ const Who = () => {
       <Image
         data-scroll=""
         data-scroll-speed="2"
-        className="w-[225px] h-[225px] rounded-full"
+        className="w-[300px] h-[300px] rounded-full"
         src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
-        width="550px"
-        height="700px"
+        width="600px"
+        height="750px"
         alt="who"
       />
       <div>
@@ -23,7 +23,7 @@ const Who = () => {
           className="text-cyan-800">?!</span>
         </h1>
         <div data-scroll="" className="text-lg text-gray-200" id="story">
-          <p>My name is Maxim Gordiyenko. I am a frontend developer since 2019 living in Kiev, Ukraine.</p>
+          <p>I am a frontend developer since 2019 living in Kiev, Ukraine.</p>
           <p>Since then, I have made a lot of projects like CRM in <span className="italic">
             EPAM <sup className="text-gray-400 not-italic">®</sup> System Ukraine</span>, thereafter made marketplace
              for sale soil, timber in Norway company for local market.

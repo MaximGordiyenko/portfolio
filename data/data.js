@@ -112,11 +112,14 @@ export const data = {
   projects: [
     {
       id: 'cl41946uh4f9k0ezzm3mqjkn5',
-      title: 'EPAM System Ukraine',
-      description: `Jun, 2019 — Jan, 2021 I developed CRM for an American pharmaceutical company that allows vendors to distribute pharmaceuticals worldwide. I worked through two weeks of the Scrum cycle with 20 devs, including the team leader and a business analyst involved in assessing the backlog. There was an investigative issue regarding database restrictions and the amount of data collected on the client side. From my perspective, the compromise is to segregate the data from the text and store it in a database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. Response for resolve bugs, refactoring. Tech: React, React-redux, Thunk, styled-components, Formik, NodeJs, Express, MongoDB, Mongoose.`,
+      title: 'Frontend & Backend developer',
+      company: 'EPAM System Ukraine',
+      period: 'June 2019 - January 2021',
+      description: `I developed CRM for an American pharmaceutical company that allows vendors to distribute pharmaceuticals worldwide. I worked through two weeks of the Scrum cycle with 20 devs, including the team leader and a business analyst involved in assessing the backlog. There was an investigative issue regarding database restrictions and the amount of data collected on the client side. From my perspective, the compromise is to segregate the data from the text and store it in a database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. Response for resolve bugs, refactoring.`,
+      technologies: [`React`, `Redux`, `Thunk`, `Styled-Components`, `Formik`, `Node`, `Express`, `MongoDB`, `Mongoose`],
       demo: 'https://www.mckesson.com',
       github: '',
-      technologies: [
+      icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
@@ -135,11 +138,14 @@ export const data = {
     },
     {
       id: 'cl4196ljg4fde0c0zjrk065a2',
-      title: 'Kortreistjord Norway',
-      description: `Mar, 2021 — Nov, 2021 I developed marketplace for selling soil and timber at Norwegian company. Markup & Design mailing with React-Email-Editor. Fetching orders data to fill the table, Generate PDF base on API use React-PDF library. Provide SEO optimisation for most important pages with React-Helmet. Connecting FB & Google authorization with the UI via Google Cloud Console. Making forms using React final-form and design with styled-components. Team can feel free communicat directly with customer on any issues. Tasks was delivered  in Jira. Tech: React, React-Email-Editor, React-PDF, Google Cloud Console. Ad Sense, Google Analytics.`,
+      title: 'React developer',
+      company: 'Kortreistjord Norway',
+      period: 'March 2021 - November 2021',
+      description: `I deal with marketplace for selling soil and timber at Norwegian company. Markup & Design mailing with React-Email-Editor. Fetching orders data to fill the table, Generate PDF base on API use React-PDF library. Provide SEO optimisation for most important pages with React-Helmet. Connecting FB & Google authorization with the UI via Google Cloud Console. Making forms using React final-form and design with styled-components. Team can feel free communicat directly with customer on any issues. Tasks was delivered  in Jira.`,
+      technologies: [`React`, `React-Email-Editor`, `React-PDF`, `Google Cloud Console`, `Ad Sense`, `Google Analytics`],
       demo: 'https://www.kortreistved.no/',
       github: '',
-      technologies: [
+      icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/sass.svg',
         'https://res.cloudinary.com/maxigord/image/upload/v1661280140/logo_kfmlzk.png',
@@ -154,11 +160,14 @@ export const data = {
     },
     {
       id: 'cl4198jlh4fb10b0yca75wulh',
-      title: 'Hygge Software',
-      description: `May 2022 — Now I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions. Tech: React, react-redux, styled-components, Formik, Ant Design, ESLint.`,
+      title: 'React developer',
+      company: 'Hygge Software',
+      period: 'May 2022 - Now',
+      description: `I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions.`,
+      technologies: [`React`, `TS`, `Redux`, `Styled-Components`, `Formik`, `Ant Design`, `ESLint`],
       demo: 'https://hygge.software/',
       github: '',
-      technologies: [
+      icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
@@ -175,11 +184,14 @@ export const data = {
     },
     {
       id: 'cl5b8iefippxy0cy9quph5vz4',
-      title: 'UpWork',
+      title: 'Full stack developer',
+      company: 'UpWork',
+      period: '2021-2022',
       description: `Some time in the middle of 2021 till 2022 time was spent on own project and refresh knowledge and collaborate with some acquaintances on freelance. It was part-time employment on application that generated QR code for menu of restaurant.`,
+      technologies: [`React`],
       demo: 'https://www.upwork.com',
       github: '',
-      technologies: [
+      icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
         'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
@@ -292,14 +304,46 @@ export const data = {
       link: "",
     },
   ],
-  about: `My name is Maxim Gordiyenko. I am a frontend developer since 2019 living in Kiev, Ukraine.
-          Since then, I have made a lot of projects like CRM in EPAM System Ukraine, thereafter made marketplace for sale soil, timber in Norway company for local market.
-          Some period of life worked on UpWork so that find work-life balance like a Lagom inside Hygge.
+  about: `I am a frontend developer since 2019.
+          Since then, I have made a lot of projects like CRM , thereafter made marketplace for sale soil, timber in Norway company for local market.
           Last but not least is communication with the team quite important skill if hit a problem I will always turn to colleagues when google is no longer helping me.
           Besides the e-commerce coding, I also love writing a about faced up issues and the ways to solve it.
           In my spare time, learning new tech stacks, time to time back to Udemy.com in order to refresh knowledge of JavaScript:
           "Understanding the Weird Parts", check new ability of React or start off new course "Microservices" and algorithms.
-          Hobby is rock climbing, cos that is my technique from burnout, moreover, I love salsa.`
+          Hobby is rock climbing, cos that is my technique from burnout, moreover, I love salsa.`,
+  education: [
+    {
+      id: 1,
+      company: 'edX',
+      title: 'Computer Science',
+      period: 'March 2017'
+    },
+    {
+      id: 2,
+      company: 'Udemy',
+      title: 'JavaScript: Understanding the Weird Parts',
+      period: 'May 2017'
+    },
+    {
+      id: 3,
+      company: 'Udemy',
+      title: 'Microservices, Nodejs',
+      period: 'June 2017'
+    },
+    {
+      id: 4,
+      company: 'Udemy',
+      title: 'React, Redux',
+      period: 'July 2017'
+    },
+    {
+      id: 5,
+      company: 'Udemy',
+      title: 'React Testing Library',
+      period: 'August 2017'
+    },
+    
+  ]
 };
 
 export const canvasImages = [
