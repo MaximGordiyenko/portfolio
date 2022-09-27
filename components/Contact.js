@@ -15,13 +15,16 @@ const Contact = ({ social, data }) => {
   
   return (
     <div className="pb-20">
-      <h1 className="text-center text-4xl mt-14 md:mt-28 mb-5">
+      <h1 className="text-center text-4xl mt-14 md:mt-28 mb-3">
         Get in touch
       </h1>
+      <p className="text-gray-400 text-lg text-center">
+        Feel free to communicate with me via professional network
+      </p>
       <div
         data-scroll=""
         data-scroll-speed="1"
-        className="flex justify-center mx-[5vw] mt-8">
+        className="flex justify-center mx-[5vw] mt-7">
         <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
           <div className="flex-1">
             <form

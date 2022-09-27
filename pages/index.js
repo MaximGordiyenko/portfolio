@@ -26,7 +26,7 @@ const Index = () => {
       <Cursor/>
       <div data-scroll-container="" ref={containerRef}>
         <Intro characters={data.characters}/>
-        <Who/>
+        <Who data={data}/>
         <Skills skills={data.skills}/>
         <Projects projects={data.projects}/>
         <Hobby hobby={data.hobby}/>

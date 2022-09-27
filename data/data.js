@@ -113,9 +113,10 @@ export const data = {
     {
       id: 'cl41946uh4f9k0ezzm3mqjkn5',
       title: 'Frontend & Backend developer',
-      company: 'EPAM System Ukraine',
+      company: 'EPAM System',
+      location: 'Kiev, Ukraine',
       period: 'June 2019 - January 2021',
-      description: `I developed CRM for an American pharmaceutical company that allows vendors to distribute pharmaceuticals worldwide. I worked through two weeks of the Scrum cycle with 20 devs, including the team leader and a business analyst involved in assessing the backlog. There was an investigative issue regarding database restrictions and the amount of data collected on the client side. From my perspective, the compromise is to segregate the data from the text and store it in a database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. Response for resolve bugs, refactoring.`,
+      description: `I developed CRM for an American pharmaceutical company that allows vendors to distribute pharmaceuticals worldwide. I worked through two weeks of the Scrum cycle with ~20 devs, including the team leader and a business analyst involved in assessing the backlog. There was an investigative issue regarding database restrictions and the amount of data collected on the client side. From my perspective, the compromise is to segregate the data from the text and store it in a database and images in the cloud with a link to the document. Another issue was that one file for all languages. I solved this by implementing the localization file module approach with the i18n library where each language has a standalone module. Response for resolve bugs, refactoring.`,
       technologies: [`React`, `Redux`, `Thunk`, `Styled-Components`, `Formik`, `Node`, `Express`, `MongoDB`, `Mongoose`],
       demo: 'https://www.mckesson.com',
       github: '',
@@ -139,7 +140,8 @@ export const data = {
     {
       id: 'cl4196ljg4fde0c0zjrk065a2',
       title: 'React developer',
-      company: 'Kortreistjord Norway',
+      company: 'Kortreistjord',
+      location: 'Norway, remote',
       period: 'March 2021 - November 2021',
       description: `I deal with marketplace for selling soil and timber at Norwegian company. Markup & Design mailing with React-Email-Editor. Fetching orders data to fill the table, Generate PDF base on API use React-PDF library. Provide SEO optimisation for most important pages with React-Helmet. Connecting FB & Google authorization with the UI via Google Cloud Console. Making forms using React final-form and design with styled-components. Team can feel free communicat directly with customer on any issues. Tasks was delivered  in Jira.`,
       technologies: [`React`, `React-Email-Editor`, `React-PDF`, `Google Cloud Console`, `Ad Sense`, `Google Analytics`],
@@ -162,6 +164,7 @@ export const data = {
       id: 'cl4198jlh4fb10b0yca75wulh',
       title: 'React developer',
       company: 'Hygge Software',
+      location: 'Kharkov, Ukraine',
       period: 'May 2022 - Now',
       description: `I am working on the SDS project is a marketplace admin panel for schools. Schools can make requests for the goods they need, donors (organizations or parents) can donate the goods accordingly. Responsible for handle user data with multiple forms in order to collect then pass to backend. I deal with components reusable approach. Functionality cover by Redux-toolkit, rtk-query. Designed complex tables use antd library includes possibility to add, edit, delete data. The styled-components library use for specific purpose to covered some isolated components. The team consist of 6 frontend, backend  developers, QA Engineer PM, Scrum Master, tickets was delivered by Trello. Communication with customer through TL or directly if were required to obtain permissions.`,
       technologies: [`React`, `TS`, `Redux`, `Styled-Components`, `Formik`, `Ant Design`, `ESLint`],
@@ -185,10 +188,11 @@ export const data = {
     {
       id: 'cl5b8iefippxy0cy9quph5vz4',
       title: 'Full stack developer',
-      company: 'UpWork',
+      company: 'Upwork',
+      location: 'USA, remote',
       period: '2021-2022',
       description: `Some time in the middle of 2021 till 2022 time was spent on own project and refresh knowledge and collaborate with some acquaintances on freelance. It was part-time employment on application that generated QR code for menu of restaurant.`,
-      technologies: [`React`],
+      technologies: [`React`, `react-qr-code`, `Styled-Components`, `React-Table`, `Swagger`],
       demo: 'https://www.upwork.com',
       github: '',
       icon: [
@@ -304,12 +308,9 @@ export const data = {
       link: "",
     },
   ],
-  about: `I am a frontend developer since 2019.
-          Since then, I have made a lot of projects like CRM , thereafter made marketplace for sale soil, timber in Norway company for local market.
-          Last but not least is communication with the team quite important skill if hit a problem I will always turn to colleagues when google is no longer helping me.
-          Besides the e-commerce coding, I also love writing a about faced up issues and the ways to solve it.
+  about: `I am a frontend developer since 2019 living in Kiev, Ukraine.
+          Besides the e-commerce coding, I am also writing blog about faced up issues and the ways to solve it.
           In my spare time, learning new tech stacks, time to time back to Udemy.com in order to refresh knowledge of JavaScript:
-          "Understanding the Weird Parts", check new ability of React or start off new course "Microservices" and algorithms.
           Hobby is rock climbing, cos that is my technique from burnout, moreover, I love salsa.`,
   education: [
     {
@@ -322,27 +323,26 @@ export const data = {
       id: 2,
       company: 'Udemy',
       title: 'JavaScript: Understanding the Weird Parts',
-      period: 'May 2017'
+      period: 'May 2019'
     },
     {
       id: 3,
       company: 'Udemy',
       title: 'Microservices, Nodejs',
-      period: 'June 2017'
+      period: 'June 2021'
     },
     {
       id: 4,
       company: 'Udemy',
       title: 'React, Redux',
-      period: 'July 2017'
+      period: 'November 2019'
     },
     {
       id: 5,
       company: 'Udemy',
       title: 'React Testing Library',
-      period: 'August 2017'
+      period: 'August 2020'
     },
-    
   ]
 };
 

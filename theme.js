@@ -6,12 +6,10 @@ const theme = {
     textSecondary: "#C1C1C1",
     background: "#F8F8F8",
     primary: "#25CED1",
-    /* Tests for secondary color (https://coolors.co/f8f8f8-3d3b44-25ced1-ff8a5b-ea526f) */
     paradisePink: "#EA526F",
     turquoise: "#48E5C2",
     coral: "#FF8A5B",
     darkTurquoise: "#25CED1",
-    /* Projects colors */
     cwgYellow: "#FFD85E",
     cwgBlue: "#4285F4",
     qantasRed: "#FF0002",

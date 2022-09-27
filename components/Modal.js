@@ -35,7 +35,7 @@ const Modal = ({ data }) => {
         <Portal selector="#modal">
           <div className="backdrop">
             <div className="modal">
-              <PDFViewer style={{ height: "100%", width: "100%" }} fileName="MaximHordiienko.pdf" >
+              <PDFViewer style={{ height: "100%", width: "100%" }} filename="MaximHordiienko.pdf" >
                 <Resume data={data}/>
               </PDFViewer>
               <button type="button" onClick={() => setOpen(false)} className="close">x</button>

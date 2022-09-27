@@ -41,7 +41,7 @@ const Projects = ({ projects }) => {
           </div>
           <div className="item-info lg:flex-1">
             <h1 className="text-3xl text-sky-600">{project.company}</h1>
-            <span className="text-sm text-slate-300 font-mono">{project.period}</span>
+            <span className="text-sm text-slate-300 font-mono">{project.period}</span>, <i className='text-[15px] text-pink-400'>{project.location}</i>
             <p className="text-[19px] text-justify my-2 text-gray-400">{project.description}</p>
             {project.technologies.map((technology, idx) =>
               <span key={idx} className="text-[15px] text-justify mr-2 py-[2px] px-[4px] text-xs text-slate-100 italic bg-sky-700 rounded">

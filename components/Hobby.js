@@ -6,7 +6,8 @@ const Hobby = ({ hobby }) => {
       <div className="w-full max-w-[1100px]">
         <h1 className="text-4xl text-center">More of my works</h1>
         <p className="mt-4 mb-5 text-gray-400 text-lg text-center">
-          I am sure you will like some of my hobby projects</p>
+          I am sure you will like some of my hobby projects
+        </p>
         <div
           data-scroll=""
           data-scroll-speed="1"

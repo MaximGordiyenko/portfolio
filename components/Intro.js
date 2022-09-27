@@ -49,12 +49,6 @@ const Intro = ({characters}) => {
           backend developer
         </div>
       </m.d>
-      <div className="flex item-center justify-content">
-        <div className="relative w-[15px] h-[15px] bg-pink-600 rotate-45">
-          <div className="absolute w-[100%] h-[100%] bg-pink-600 rounded-[50%] left-[-50%]"></div>
-          <div className="absolute w-[100%] h-[100%] bg-pink-600 rounded-[50%] top-[-50%]"></div>
-        </div>
-      </div>
       <m.a
         data-scroll
         data-scroll-speed="2"
@@ -65,7 +59,7 @@ const Intro = ({characters}) => {
         className="absolute left-[calc(50%-23px)] bottom-[10vh] cursor-pointer"
         href="#who"
         data-scroll-to>
-        <BiChevronsDown size={56} className="animate-bounce w-20 h-20 hover:text-sky-700"/>
+        <BiChevronsDown size={56} className="animate-bounce w-20 h-20 text-pink-500 hover:text-sky-700"/>
       </m.a>
     </div>
   );
