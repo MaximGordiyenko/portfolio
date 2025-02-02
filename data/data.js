@@ -520,7 +520,7 @@ export const data = {
     {
       title: "My blog",
       icon: "https://res.cloudinary.com/maxigord/image/upload/v1663023262/blog_dzq8pc.png",
-      link: ""
+      link: "https://maximhordiienko.vercel.app/"
     }
   ],
   about: [
