@@ -52,6 +52,7 @@ export default function RootLayout({ children }) {
       {/* Mobile web app meta tags */}
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="google-site-verification" content="Yj-V116Ht1akd41tGQHYwrzT_qiYUrYJpKX9aYAsBHQ" />
     </head>
     <LazyMotion features={domAnimation}>
       <body>
