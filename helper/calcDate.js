@@ -1,34 +1,37 @@
-export const calcDate = (date1, date2) => {
-  
-  const dt_date1 = new Date(date1);
-  const dt_date2 = new Date(date2);
 
-  const date1_time_stamp = dt_date1.getTime();
-  const date2_time_stamp = dt_date2.getTime();
+export const calculateTotalPeriodsOfExperience = (projects) => {
+  const parseDate = (dateStr) => {
+    const [month, year] = dateStr.split(" ");
+    return new Date(`${month} 1, ${year}`);
+  };
   
-  let calc;
+  const calculateMonths = (start, end) => {
+    const startDate = parseDate(start);
+    const endDate = parseDate(end);
+    return (endDate.getFullYear() - startDate.getFullYear()) * 12 + (endDate.getMonth() - startDate.getMonth() + 1);
+  };
+  
+  const technologyDurations = {};
+  
+  projects.forEach(({ period: { start, end }, technologies }) => {
+    const months = calculateMonths(start, end);
+    technologies.forEach((tech) => {
+      technologyDurations[tech] = (technologyDurations[tech] || 0) + months;
+    });
+  });
+  
+  return technologyDurations;
+};
 
-  if (date1_time_stamp > date2_time_stamp) {
-    calc = new Date(date1_time_stamp - date2_time_stamp);
-  } else {
-    calc = new Date(date2_time_stamp - date1_time_stamp);
+export const formatDuration = (months) => {
+  const years = Math.floor(months / 12);
+  const remainingMonths = months % 12;
+  
+  if (years === 0) {
+    return `${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`;
   }
-
-  const calcFormatTmp = calc.getDate() + '-' + (calc.getMonth() + 1) + '-' + calc.getFullYear();
-
-  const calcFormat = calcFormatTmp.split("-");
-
-  const months_passed = Number(Math.abs(calcFormat[1]) - 1);
-  const years_passed = Number(Math.abs(calcFormat[2]) - 1970);
   
-
-  const yrsTxt = ["year", "years"];
-  const monthsTxt = ["month", "months"];
-  
-  const result = ((years_passed === 1) ? years_passed + ' ' + yrsTxt[0] + ' ' : (years_passed > 1) ?
-      years_passed + ' ' + yrsTxt[1] + ' ' : '') +
-    ((months_passed === 1) ? months_passed + ' ' + monthsTxt[0] : (months_passed > 1) ?
-      months_passed + ' ' + monthsTxt[1] + ' ' : '');
-  
-  return result.trim();
-}
+  return remainingMonths === 0
+    ? `${years} year${years !== 1 ? "s" : ""}`
+    : `${years} year${years !== 1 ? "s" : ""} and ${remainingMonths} month${remainingMonths !== 1 ? "s" : ""}`;
+};

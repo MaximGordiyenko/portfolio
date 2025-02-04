@@ -1,8 +1,18 @@
 "use client";
 import Image from "next/image";
-import { calcDate } from '@/helper/calcDate';
+import { calculateTotalPeriodsOfExperience, formatDuration } from '@/helper/calcDate';
+import { useState } from 'react';
 
 export const Who = ({ data }) => {
+  const [showAll, setShowAll] = useState(false);
+  
+  const toggleShowMore = () => {
+    setShowAll((prev) => !prev);
+  };
+  
+  const items = Object.entries(calculateTotalPeriodsOfExperience(data?.projects));
+  const visibleItems = showAll ? items : items.slice(0, 3);
+  
   return (
     <div
       id="who"
@@ -32,28 +42,21 @@ export const Who = ({ data }) => {
           <p className="pb-4">{data.about[1]}</p>
           <p className="pb-4">{data.about[2]}</p>
           <ul>
-            <li>JavaScript <span className="text-sky-600">|</span> React <span
-              className="text-sky-600">|</span> React-Hooks: <span className="text-pink-400 italic">
-              {calcDate("06/01/2019", Date.now())}
-            </span>
-            </li>
-            <li>Redux <span className="text-sky-600">|</span> Styled-Components: <span className="text-pink-400 italic">
-              {calcDate("10/01/2019", Date.now())}
-            </span>
-            </li>
-            <li>NextJS <span className="text-sky-600">|</span> React-Testing-Library: <span
-              className="text-pink-400 italic">
-              {calcDate("01/03/2022", Date.now())}
-            </span>
-            </li>
-            <li>NodeJS <span className="text-sky-600">|</span> MongoDB <span
-              className="text-sky-600">|</span> TypeScript: <span className="text-pink-400 italic">
-              {calcDate("09/01/2019", "01/01/2021")}
-            </span>
-            </li>
-            <li>English: <span className="text-pink-400 italic">intermediate <span className="text-sky-600">(B1)</span></span>
-            </li>
+            {visibleItems.map(([tech, months], idx) => (
+              <li key={`${tech}-${idx}`}>
+                {tech} <span className="text-pink-400 italic">{formatDuration(months)}</span>
+              </li>
+            ))}
           </ul>
+          {items.length > 3 && (
+            <button
+              onClick={toggleShowMore}
+              className="mb-2 text-blue-500 hover:text-blue-300">
+              {showAll ? "Show Less" : "Show all stack..."}
+            </button>
+          )}
+          <p>English: <span className="text-pink-400 italic">intermediate <span
+            className="text-sky-600">(B1)</span></span></p>
         </div>
       </div>
     </div>

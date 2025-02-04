@@ -6,6 +6,7 @@ import { Projects } from '@/components/Projects';
 import { Hobby } from '@/components/Hobby';
 import { data } from '@/data/data';
 import "../styles/globals.css";
+import Contact from '@/components/Contact';
 
 export default function Page() {
   
@@ -16,6 +17,7 @@ export default function Page() {
       <Skills skills={data.skills}/>
       <Projects projects={data.projects}/>
       <Hobby hobby={data.hobby}/>
+      <Contact social={data.social} data={data}/>
     </div>
   );
 }

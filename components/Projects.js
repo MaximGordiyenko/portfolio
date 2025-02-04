@@ -27,10 +27,12 @@ export const Projects = ({ projects }) => {
             </div>
             <div className="item-info lg:flex-1">
               <h1 className="text-3xl text-sky-600">{project.company}</h1>
-              <span className="text-sm text-slate-300 font-mono">{project.period}</span>・
-              <i className="text-[15px] text-pink-400">{project.location}</i>・
-              <i className="text-[15px] text-pink-300">{project.status}</i>
-              <TextWithShowMore text={project.description} />
+              <span className="text-sm text-slate-300 font-mono">{project.period.start} - {project.period.end}</span>
+              <span className="text-slate-300">・</span>
+              <i className="text-[15px] text-pink-400">{project.location}</i>
+              <span className="text-slate-300">・</span>
+              <i className="text-[14px] text-pink-300">{project.status}</i>
+              <TextWithShowMore text={project.description}/>
               {project.technologies.map((technology, idx) =>
                   <span key={idx}
                         className="text-[15px] text-justify px-[4px] text-xs italic text-pink-300">

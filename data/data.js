@@ -164,7 +164,7 @@ export const data = {
       company: 'Wimble Software',
       location: 'Odessa, Ukraine',
       status: 'Remote',
-      period: 'Mar 2024 - Nov 2024',
+      period: { start: 'March 2024', end: 'November 2024' },
       description: `Design and implement intuitive drag-and-drop interfaces for creating and customizing email templates.
         Develop modular and reusable components for layout structures.
         Implement responsive designs to ensure email templates render correctly across all devices and email clients.
@@ -199,23 +199,23 @@ export const data = {
         {
           id: 1,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309398/Screenshot_2025-01-31_at_09.38.48_aubknu.png',
-          alt: 'mail-img-1',
+          alt: 'mail-img-1'
         },
         {
           id: 2,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309394/Screenshot_2025-01-31_at_09.38.01_qfdog0.png',
-          alt: 'mail-img-2',
+          alt: 'mail-img-2'
         },
         {
           id: 3,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309373/Screenshot_2025-01-31_at_09.37.48_ozuhwg.png',
-          alt: 'mail-img-3',
+          alt: 'mail-img-3'
         },
         {
           id: 4,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309372/Screenshot_2025-01-31_at_09.39.28_uhofic.png',
-          alt: 'mail-img-4',
-        },
+          alt: 'mail-img-4'
+        }
       ]
     },
     {
@@ -224,7 +224,7 @@ export const data = {
       company: 'Hygge Software',
       location: 'Kharkiv, Ukraine',
       status: 'Remote',
-      period: 'Aug 2023 - Jan 2024',
+      period: { start: 'August 2023', end: 'January 2024' },
       description: `Admin Panel is a platform designed for managing and overseeing operations for schools across Europe.
        Built a feature-rich data table with CRUD operations, integrating TypeScript to type-check table data and ensure accurate data manipulation (e.g., adding, editing, and deleting entries).
        Leveraged inputs for managing form states and validation to enforce correct form data structures.
@@ -245,23 +245,23 @@ export const data = {
         {
           id: 1,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308494/order_lccjvq.png',
-          alt: 'admin-panel-img-1',
+          alt: 'admin-panel-img-1'
         },
         {
           id: 2,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/customers_detailpage.0cea30a2_keuog1.png',
-          alt: 'admin-panel-img-2',
+          alt: 'admin-panel-img-2'
         },
         {
           id: 3,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/525e8ad0-7196-4fcc-a6c0-ba2d82a9a934.png_copy_mz7mwq.png',
-          alt: 'admin-panel-img-3',
+          alt: 'admin-panel-img-3'
         },
         {
           id: 4,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187443/sds_zymi3c.png',
-          alt: 'admin-panel-img-4',
-        },
+          alt: 'admin-panel-img-4'
+        }
       ]
     },
     {
@@ -270,7 +270,7 @@ export const data = {
       company: 'Insoft Global',
       location: 'United States',
       status: 'Remote',
-      period: 'Apr 2022 - Feb 2023',
+      period: { start: 'April 2022', end: 'February 2023' },
       description: `The platform is a comprehensive employee management system designed to streamline administrative tasks, enhance workforce organization, and improve accessibility.
         Developed a MVP to validate the PoC, ensuring scalability and adaptability for future iterations.
         Tailored components, including form fields, buttons, and menus, to match the platform’s branding.
@@ -300,23 +300,23 @@ export const data = {
         {
           id: 1,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310005/Screenshot_2025-01-31_at_09.49.59_rwla2y.png',
-          alt: 'crm-img-1',
+          alt: 'crm-img-1'
         },
         {
           id: 2,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310003/Screenshot_2025-01-31_at_09.50.38_eq57yn.png',
-          alt: 'crm-img-2',
+          alt: 'crm-img-2'
         },
         {
           id: 3,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310000/Screenshot_2025-01-31_at_09.50.53_d738ci.png',
-          alt: 'crm-img-3',
+          alt: 'crm-img-3'
         },
         {
           id: 4,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309999/Screenshot_2025-01-31_at_09.52.03_r8bksm.png',
-          alt: 'crm-img-4',
-        },
+          alt: 'crm-img-4'
+        }
       ]
     },
     {
@@ -325,7 +325,7 @@ export const data = {
       company: 'KortreistVed & KortreistJord',
       location: 'Norway',
       status: 'Remote',
-      period: 'Apr 2021 - Dec 2021 ',
+      period: { start: 'April 2021', end: 'December 2021' },
       description: `Marketplace for selling soil and timber, the second-largest distributor in Norway (kortreistjord.no, kortreistved.no).
         Implemented customizable email layouts tailored for marketing and transactional purposes.
         Built an intuitive order interface to streamline user interactions with delivery options and product selection.
@@ -351,23 +351,23 @@ export const data = {
         {
           id: 1,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288374/a83e0ce05e1c3bd20fc99e560463fc8b_uc3qgh.webp',
-          alt: 'kortreistved-img-1',
+          alt: 'kortreistved-img-1'
         },
         {
           id: 2,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/79a1234155cc89632911c740a3ddd9b4_sw0pf1.webp',
-          alt: 'kortreistved-img-2',
+          alt: 'kortreistved-img-2'
         },
         {
           id: 3,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/43c89d88947cdc4513ff2bbf350251ea_rpn31j.webp',
-          alt: 'kortreistved-img-3',
+          alt: 'kortreistved-img-3'
         },
         {
           id: 4,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187402/Kortreistjord_xs7fwb.png',
-          alt: 'kortreistved-img-4',
-        },
+          alt: 'kortreistved-img-4'
+        }
       ]
     },
     {
@@ -376,7 +376,7 @@ export const data = {
       company: 'EPAM Systems',
       location: 'Kyiv, Ukraine',
       status: 'Office',
-      period: 'Jun 2019 - Jan 2021',
+      period: { start: 'June 2019',  end: 'January 2021' },
       description: `CRM system for the pharmaceutical distributors (McKesson). It supplies prescription medications, over-the-counter drugs, vaccines, and other healthcare products to pharmacies, hospitals, and healthcare providers globally.
         Develop a dashboard for sales reps, managers, and customers based on Figma design.
         Displaying real-time data for orders, inventory, and customer insights, so on.
@@ -404,23 +404,23 @@ export const data = {
         {
           id: 1,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310651/acbd4b71-e1ad-4bb0-8a8b-35f323f646c2_kzonpk.png',
-          alt: 'pharm-img-1',
+          alt: 'pharm-img-1'
         },
         {
           id: 2,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310647/Screenshot_2025-01-31_at_09.59.37_wh0miy.png',
-          alt: 'pharm-img-2',
+          alt: 'pharm-img-2'
         },
         {
           id: 3,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310643/Screenshot_2025-01-31_at_10.00.17_w52oyv.png',
-          alt: 'pharm-img-3',
+          alt: 'pharm-img-3'
         },
         {
           id: 4,
           url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310642/Screenshot_2025-01-31_at_10.01.16_csq9et.png',
-          alt: 'pharm-img-4',
-        },
+          alt: 'pharm-img-4'
+        }
       ]
     }
   ],
@@ -435,16 +435,6 @@ export const data = {
       }
     },
     {
-      id: 'cl41bb6ga4i6v0c0zc4nud16j',
-      title: 'Movify',
-      description: 'The app is aggregator of moves poster allows you search, add, delete. Tech: React, react-redux,' +
-        ' Thunk, styled-components, Material UI, visx, NodeJS, Express, axios, MongoDB, mongoose.',
-      link: 'https://maximgordiyenko.github.io/Universe/',
-      icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/verdaccio.svg'
-      }
-    },
-    {
       id: 'cl41bd91j4h2j0b14h717fxus',
       title: 'Milky Way Universe',
       description: 'The UI is almost identical produce movement by star-lights with dark bg, animations with a lot' +
@@ -456,22 +446,12 @@ export const data = {
     },
     {
       id: 'cl41besg84ibz0b0y517qkj02',
-      title: 'Job-Offer Notes',
-      description: 'Simple pet project provide functionality like filter, searching by title, description so on in' +
-        ' real time. Tech: react, react-redux, styled-components, react-hook-form',
-      link: 'https://github.com/MaximGordiyenko/test-react-spring-2022',
+      title: 'Dating Site Template',
+      description: 'Designed a dating app template using Figma, focusing on user-friendly interfaces and modern' +
+        ' design principles. Tech: React, MIU, ESLint, Vite,',
+      link: 'https://greek-dating.vercel.app',
       icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vuex-store.svg'
-      }
-    },
-    {
-      id: 'cl41bit6l4j2h0ezz5tk59n5j',
-      title: 'Cryptofy',
-      description: 'The price-tracking website for crypto assets in the rapidly growing cryptocurrency' +
-        ' space. Tech: React, React-Redux, NodeJS, MongoDB,',
-      link: 'https://github.com/MaximGordiyenko/cryptofy',
-      icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/imba.svg'
+        url: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/tableau-icon.svg'
       }
     },
     {
@@ -483,7 +463,7 @@ export const data = {
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vala.svg'
       }
-    },
+    }
   ],
   characters: [
     "M1 3.53259H11.2069L35.2069 70.8045H36.0345L60.0345 3.53259H70.2414V84.5754H62.2414V23.0019H61.5517L39.4828" +
@@ -508,27 +488,15 @@ export const data = {
       link: "https://www.linkedin.com/in/maxim-gordiyenko/"
     },
     {
-      title: "StackOverFlow",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1661189975/stackoverflow_idgkse.svg",
-      link: "https://stackoverflow.com/users/5420542/maxim-gordiyenko?tab=profile"
-    },
-    {
       title: "Telegram",
       icon: "https://res.cloudinary.com/maxigord/image/upload/v1663022112/teleg_oh3tgb.png",
       link: "https://telegram.me/MaximGordiyenko"
-    },
-    {
-      title: "My blog",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663023262/blog_dzq8pc.png",
-      link: "https://maximhordiienko.vercel.app/"
     }
   ],
   about: [
-    `Experienced Frontend Developer with a strong focus on building scalable, responsive, and user-friendly applications. I specialize in ReactJS, TypeScript, Redux, and CSS frameworks like Material UI and Ant Design. I have a proven track record of contributing to projects  that enhance user experiences, including CRM systems, marketplace admin panels, and employee management platforms.`,
+    `A frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.`,
     
-    `I’m skilled at designing modular, reusable components, developing dynamic forms, and implementing features like localization, authentication, and data management. I also have experience integrating third-party tools like Google Analytics for tracking, JWT for secure authentication, and Formik for form validation.`,
-    
-    `Passionate about writing clean, maintainable code and collaborating with cross-functional teams to deliver impactful solutions.`
+    `When I'm not coding, you can find me dancing bachata or scaling climbing routes, always embracing challenges and new adventures. ✨`
   ],
   education: [
     {
