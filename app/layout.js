@@ -1,6 +1,12 @@
 import { domAnimation, LazyMotion } from 'framer-motion';
 import "../styles/globals.css";
 
+export const metadata = {
+  description: 'A frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.',
+  manifest: '/manifest.json',
+  title: `Maxim Hordiienko`,
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
@@ -21,10 +27,12 @@ export default function RootLayout({ children }) {
             `
         }}
       />
+      <link rel="canonical" href="https://maximhordiienko.vercel.app" />
+      <link rel="alternate" hrefLang="en-US" href="https://maximhordiienko.vercel.app/en-US" />
+      
       <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       <link rel="apple-touch-icon" href="/favicon-16x16.png" sizes="16x16" />
       <link rel="apple-touch-icon" href="/favicon-32x32.png" sizes="32x32" />
-      <link rel="apple-touch-icon" href="/favicon-96x96.png" sizes="96x96" />
       
       {/* Title and meta tags */}
       <title>Maxim Hordiienko</title>

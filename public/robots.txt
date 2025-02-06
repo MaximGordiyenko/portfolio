@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://maximhordiienko.vercel.app
+
+# Sitemaps
+Sitemap: https://maximhordiienko.vercel.app/sitemap.xml

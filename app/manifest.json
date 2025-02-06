@@ -1,0 +1,40 @@
+{
+  "name": "Maxim Hordiienko - Portfolio",
+  "short_name": "Maxim Hordiienko",
+  "description": "A frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1e1d1d",
+  "theme_color": "#1e1d1d",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-31x31.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1738309398/Screenshot_2025-01-31_at_09.38.48_aubknu.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "Project Email Builder Dashboard"
+    },
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1738308494/order_lccjvq.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "label": "Admin Panel"
+    }
+  ]
+}

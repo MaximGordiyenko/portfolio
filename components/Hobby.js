@@ -21,8 +21,8 @@ export const Hobby = ({ hobby }) => {
                 className="h-[40px] w-[80px] my-1 object-contain"
                 src={project.icon.url}
                 alt={project.icon.url}
-                width={80}
-                height={40}
+                width={0}
+                height={0}
               />
               <div>
                 <h1 className="text-sky-600 hover:text-sky-400">{project.title}</h1>

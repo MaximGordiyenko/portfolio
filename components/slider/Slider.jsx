@@ -26,6 +26,7 @@ const ProjectsSlider = ({ projects }) => {
                   src={image.url}
                   alt={image.alt}
                   fill
+                  sizes="100%"
                   style={{ objectFit: "cover" }}
                 />
               </div>
