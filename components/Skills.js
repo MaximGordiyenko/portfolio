@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Skills = ({ skills }) => {
   return (
-    <div className="lg:min-h-[70vh] px-[5vw] pt-[40px] pb-[60px] flex flex-col items-center justify-center z-[4]">
+    <article className="lg:min-h-[70vh] px-[5vw] pt-[40px] pb-[60px] flex flex-col items-center justify-center z-[4]">
       <h1
         data-scroll=""
         data-scroll-direction="horizontal"
@@ -18,7 +18,7 @@ export const Skills = ({ skills }) => {
         className="description text-lg text-center mt-[8px] pb-[10px] text-gray-400">
         Technologies that I use to develop commercial product everyday
       </p>
-      <div className="grid justify-center grid-cols-8 md:grid-cols-6 lg:grid-cols-10 gap-y-[10px] md:gap-y-[20px]">
+      <nav className="grid justify-center grid-cols-8 md:grid-cols-6 lg:grid-cols-10 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
           <a
             key={skill.id}
@@ -36,7 +36,7 @@ export const Skills = ({ skills }) => {
             <p className="text-center text-stone-400 font-mono mt-2 mb-6 hover:text-sky-600">{skill.title}</p>
           </a>
         ))}
-      </div>
-    </div>
+      </nav>
+    </article>
   );
 };

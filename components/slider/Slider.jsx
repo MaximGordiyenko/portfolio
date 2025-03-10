@@ -15,7 +15,7 @@ const ProjectsSlider = ({ projects }) => {
   return (
     <div className="relative w-full">
       <div className="overflow-hidden">
-        <div
+        <figure
           className="flex transition-transform duration-300 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {projects.images.map((image) => (
@@ -32,7 +32,7 @@ const ProjectsSlider = ({ projects }) => {
               </div>
             </div>
           ))}
-        </div>
+        </figure>
       </div>
       
       <button

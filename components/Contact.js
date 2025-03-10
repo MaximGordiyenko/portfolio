@@ -35,20 +35,20 @@ const Contact = ({ social }) => {
   };
   
   return (
-    <div className="pb-20">
+    <footer className="py-10 px-5">
       <h1 className="text-center text-4xl mt-14 md:mt-28 mb-3 text-gray-300">
         Get in touch
       </h1>
       <p className="text-gray-400 text-lg text-center text-gray-400">
         Feel free to communicate with me via professional network
       </p>
-      <div
+      <section
         className="flex justify-center mx-[5vw] mt-7">
-        <div className="w-full max-w-[1100px] flex gap-10 flex-col md:flex-row">
-          <div className="flex-1 text-gray-300">
+        <div className="flex gap-10 flex-col w-full">
+          <section className="flex text-gray-300">
             <form
               onSubmit={handleSubmit(sendEmails)}
-              className="flex flex-col gap-1">
+              className="flex flex-col gap-1 w-full">
               <label htmlFor="name">Your name</label>
               <input
                 type="text"
@@ -58,7 +58,7 @@ const Contact = ({ social }) => {
                 required
                 minLength={3}
                 {...register("user_name", { required: "Please enter your first name." })}
-                className="border rounded-md border-stone-700 hover:border-stone-500 p-2 mb-4 !outline-none"
+                className="border rounded-md border-stone-700 hover:border-stone-500 p-2 mb-4 !outline-none w-full"
               />
               {errors.user_name && <span className="text-red-500">{errors.user_name.message}</span>}
               <label htmlFor="email">Your email</label>
@@ -88,9 +88,8 @@ const Contact = ({ social }) => {
                 Send
               </button>
             </form>
-          </div>
-          <div className="">
-            <h1 className="text-xl mb-3 text-gray-400">Social</h1>
+          </section>
+          <section className="flex justify-around">
             {social.map((item) => (
               <a
                 key={item.title}
@@ -108,10 +107,10 @@ const Contact = ({ social }) => {
                 <h1 className="text-sky-600 hover:text-sky-400">{item.title}</h1>
               </a>
             ))}
-          </div>
+          </section>
         </div>
-      </div>
-    </div>
+      </section>
+    </footer>
   );
 };
 

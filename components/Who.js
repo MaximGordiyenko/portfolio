@@ -14,20 +14,18 @@ export const Who = ({ data }) => {
   const visibleItems = showAll ? items : items.slice(0, 3);
   
   return (
-    <div
+    <article
       id="who"
-      className="flex gap-[5vw] px-[5vw] lg:px-[15vw] z-[2] lg:min-h-[70vh] items-center justify-center flex-col md:flex-row">
+      className="flex gap-[5vw] px-[5vw] lg:px-[15vw] z-[2] lg:min-h-[70vh] items-center justify-center flex-col lg:flex-row">
       <Image
-        data-scroll=""
-        data-scroll-speed="2"
-        className="w-[300px] h-[300px] rounded-full"
+        className="w-[300px] h-[300px] sm:w-[260px] lg:w-[500px] rounded-full"
         src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
         width={600}
         height={750}
         alt="who"
       />
-      <div>
-        <h1 data-scroll="" data-scroll-speed="0.5" className="title text-[40px]">
+      <header>
+        <h1 className="title text-[40px]">
           <span className="text-cyan-100">B</span>
           <span className="text-cyan-200">r</span>
           <span className="text-cyan-300">i</span>
@@ -37,7 +35,7 @@ export const Who = ({ data }) => {
           <span className="text-cyan-700">y</span> <span className="text-cyan-800">about <span
           className="underline decoration-pink-500">me</span> </span>
         </h1>
-        <div data-scroll="" className="text-lg text-gray-200" id="story">
+        <div className="text-lg text-gray-200" id="story">
           <p className="pb-4">{data.about[0]}</p>
           <p className="pb-4">{data.about[1]}</p>
           <p className="pb-4">{data.about[2]}</p>
@@ -58,7 +56,7 @@ export const Who = ({ data }) => {
           <p>English: <span className="text-pink-400 italic">intermediate <span
             className="text-sky-600">(B1)</span></span></p>
         </div>
-      </div>
-    </div>
+      </header>
+    </article>
   );
 };

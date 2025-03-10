@@ -5,7 +5,7 @@ import Canvas from './Canvas';
 
 export const Intro = ({ characters }) => {
   return (
-    <div className="relative h-screen flex justify-center items-center flex-col gap-5">
+    <article className="relative h-screen flex justify-center items-center flex-col gap-5">
       <Canvas/>
       <svg
         className="h-[10vw] max-h-[100px] min-h-[60px] max-w-[100vw] z-[1]"
@@ -61,6 +61,6 @@ export const Intro = ({ characters }) => {
           className="animate-bounce w-20 h-20 text-pink-500 hover:text-sky-700"
         />
       </m.a>
-    </div>
+    </article>
   );
 };

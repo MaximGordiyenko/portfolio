@@ -6,18 +6,18 @@ import TextWithShowMore from '@/components/slider/TextWithShowMore';
 
 export const Projects = ({ projects }) => {
   return (
-    <>
+    <article>
       <h1 className="text-center text-4xl pb-4 text-gray-300">
         Commercial Projects
       </h1>
-      <p className="description text-lg text-center text-gray-400">
+      <p className="description text-lg text-center text-gray-400 sm:px-14">
         Commercial experience that special care of details, best practices, web standards, code quality
       </p>
-      <div className="py-8">
+      <section className="py-8">
         {projects.map((project, index) => (
-          <div
+          <article
             key={project.id}
-            className={`item flex items-center gap-[20px] lg:gap-[60px] w-full px-[5vw] md:min-h-[60vh] md:py-4 lg:py-4 ${
+            className={`item flex items-center gap-[20px] lg:gap-[60px] w-full px-[5vw] md:min-h-[60vh] sm:p-12 md:py-4 lg:py-4 ${
               index % 2 === 1
                 ? "flex-col lg:flex-row"
                 : "flex-col lg:flex-row-reverse"
@@ -57,9 +57,9 @@ export const Projects = ({ projects }) => {
                 </a>
               </div>
             </div>
-          </div>
+          </article>
         ))}
-      </div>
-    </>
+      </section>
+    </article>
   );
 };

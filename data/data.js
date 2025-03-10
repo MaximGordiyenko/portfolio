@@ -179,7 +179,7 @@ export const data = {
         - Border styles, gradients, and shadow effects.
         Work closely with backend developers, designers, and product managers to deliver seamless features.
         Document reusable components and builder functionality to maintain code scalability.`,
-      technologies: [`React.js`, `Express.js`, `PostgreSQL`, `Sequelize.js`, `Ant Design`, `React-Query`, `Axios`, `React-Draft`, `AWS`, `Nodemailer`, `SortableJS`, `React-Email`, `ESLint`, `Prettier`, `Chart.js`, `Jira`, `Codemirror`],
+      technologies: [`React.js`, `Express.js`, `PostgreSQL`, `Sequelize.js`, `Ant Design`, `React-Query`, `Axios`, `React-Draft`, `AWS`, `Nodemailer`, `SortableJS`, `React-Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
       site: 'https://dinomail.io',
       linkedIn: 'https://www.linkedin.com/company/wimble',
       icon: [
@@ -229,7 +229,7 @@ export const data = {
        Built a feature-rich data table with CRUD operations, integrating TypeScript to type-check table data and ensure accurate data manipulation (e.g., adding, editing, and deleting entries).
        Leveraged inputs for managing form states and validation to enforce correct form data structures.
        Coordinated with backend engineers to ensure that the data received matched the expected structure and type.`,
-      technologies: [`React.js`, `BEM`, `TypeScript`, `SCSS`, `AdSense`, `REST APIs`, `ESLint`, `Prettier`, `Jira`, `Redux Toolkit`, `Axios`, `Redux Thunk`],
+      technologies: [`React.js`, `BEM`, `TypeScript`, `SCSS`, `Google Analytics`, `REST APIs`, `ESLint/Prettier`, `Redux/Toolkit/Thunk`, `Axios`],
       site: 'https://hygge.software',
       linkedIn: 'https://www.linkedin.com/company/hyggesoftware',
       icon: [
@@ -282,7 +282,7 @@ export const data = {
         Built a secure authentication system using JWT to manage user access and permissions.
         Utilized techniques such as lazy loading, code splitting, and backend caching.
         Integrated tools for analytics, reporting, and monitoring using Google Analytics.`,
-      technologies: [`React.js`, `Node.js`, `Axios`, `Express.js`, `Authorization`, `Authentication`, `JWT`, `REST APIs`, `ESLint`, `Prettier`, `Jira`, `React Query`, `PostgreSQL`, `Sequelize.js`, 'Nodemailer', 'React i18next', 'React Hook Form', 'Context API', 'CORS', 'Swagger API', , `Material UI`, `Styled-Components`],
+      technologies: [`React.js`, `Node.js`, `Axios`, `Express.js`, `Authorization`, `Authentication`, `JWT`, `REST APIs`, `ESLint/Prettier`, `React-Query`, `PostgreSQL`, `Sequelize.js`, 'Nodemailer', 'React i18next', 'React-Hook-Form', 'Context API', 'CORS', 'Swagger API', `Material-UI`, `Styled-Components`],
       site: 'https://infosoft.ua',
       linkedIn: 'https://www.linkedin.com/company/infosoft-global',
       icon: [
@@ -387,7 +387,7 @@ export const data = {
         Utilize React Table to show filtered data to improve UX and speed.
         Implement reusable, modular components for different blocks and ensure responsiveness using CSS Flexbox.`,
       technologies: [
-        `React.js`, `TypeScript`, `Redux Thunk`, `React-Hook-Form`, 'React-Table', 'REST APIs', 'SCSS', 'React-Testing-Library', 'CI/CD', 'Express.js', 'Node.js', 'Cloud Storage'
+        `React.js`, `TypeScript`, `Redux/Toolkit/Thunk`, `React-Hook-Form`, 'React-Table', 'REST APIs', 'SCSS', 'React-Testing-Library', 'CI/CD', 'Express.js', 'Node.js', 'Cloud Storage'
       ],
       site: 'https://www.mckesson.com',
       linkedIn: 'https://www.linkedin.com/company/mckesson',
