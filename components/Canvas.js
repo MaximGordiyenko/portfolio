@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 
 import { motion as m } from "framer-motion";
-import { canvasImages } from '../data/data';
+import { canvasImages } from '@/data/data';
 
 const Canvas = () => {
   const canvasRef = useRef(null);
