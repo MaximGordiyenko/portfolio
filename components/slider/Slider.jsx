@@ -37,12 +37,12 @@ const ProjectsSlider = ({ projects }) => {
       
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-10 hover:bg-sky-700 cursor-pointer">
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-sky-600/75 hover:bg-sky-600/100 text-white p-2 rounded-full z-10 hover:bg-sky-700 cursor-pointer">
         &lt;
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full z-10 hover:bg-sky-700 cursor-pointer">
+        className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-sky-600/75 hover:bg-sky-600/100 text-white p-2 rounded-full z-10 hover:bg-sky-700 cursor-pointer">
         &gt;
       </button>
     </div>

@@ -181,7 +181,7 @@ export const data = {
         Document reusable components and builder functionality to maintain code scalability.`,
       technologies: [`React`, `Express`, `Postgres`, `Sequelize`, `Ant Design`, `React Query`, `Axios`, `React Draft`,
         `AWS`, `Nodemailer`, `SortableJS`, `React Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
-      site: 'https://dinomail.io',
+      site: 'https://maximgordiyenko.github.io/emailfy-frontend/login',
       linkedIn: 'https://www.linkedin.com/company/wimble',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
@@ -392,7 +392,7 @@ export const data = {
         Utilize React Table to show filtered data to improve UX and speed.
         Implement reusable, modular components for different blocks and ensure responsiveness using CSS Flexbox.`,
       technologies: [
-        `React`, `TypeScript`, `RTK/Thunk`, `React Hook Form`, 'React Table', 'REST APIs', 'SCSS', 'React Testing Library', 'CI/CD', 'Express', 'Node.js', 'Cloud Storage'
+        `React`, `TypeScript`, `RTK/Thunk`, `React Hook Form`, 'React Table', 'REST APIs', 'SCSS', 'RTL/Jest', 'CI/CD', 'Express', 'Node.js', 'Cloud Storage'
       ],
       site: 'https://www.mckesson.com',
       linkedIn: 'https://www.linkedin.com/company/mckesson',
@@ -451,7 +451,7 @@ export const data = {
     {
       id: 'cl41bd91j4h2j0b14h717fxus',
       title: 'Open Interest Bot',
-      description: `An crypto analytics tool that monitors Open Interest across top digital assets to help traders identify optimal entry points and potential price movements in the crypto market. Tech: Next.js, CDN, Canvas, TailwindCSS.`,
+      description: `An crypto analytics tool that monitors Open Interest across top digital assets to help traders identify optimal entry points and potential price movements in the crypto market. Tech: Next.js, CDN, Canvas, TailwindCSS, AWS EC2 RDS.`,
       link: 'https://oi-bot-web.vercel.app/',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/spark.svg'
