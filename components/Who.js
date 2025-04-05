@@ -16,16 +16,16 @@ export const Who = ({ data }) => {
   return (
     <article
       id="who"
-      className="flex gap-[5vw] px-[5vw] lg:px-[15vw] z-[2] lg:min-h-[70vh] items-center justify-center flex-col lg:flex-row">
+      className="flex gap-[5vw] px-[5vw] lg:px-[9vw] z-[2] lg:min-h-[70vh] items-center justify-center flex-col lg:flex-row">
       <Image
-        className="w-[300px] h-[300px] sm:w-[260px] lg:w-[500px] rounded-full"
+        className="w-[300px] h-[300px] max-sm:w-[250px] rounded-full lg:flex-1"
         src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
         width={600}
         height={750}
         alt="who"
       />
       <header>
-        <h1 className="title text-[40px]">
+        <h1 className="title text-[40px] lg:flex-2">
           <span className="text-cyan-100">B</span>
           <span className="text-cyan-200">r</span>
           <span className="text-cyan-300">i</span>

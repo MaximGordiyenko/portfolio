@@ -58,7 +58,7 @@ export const Intro = ({ characters }) => {
         data-scroll-to>
         <BiChevronsDown
           size={56}
-          className="animate-bounce w-20 h-20 text-pink-500 hover:text-sky-700"
+          className="animate-bounce w-20 h-20 text-gray-50 hover:text-gray-300"
         />
       </m.a>
     </article>

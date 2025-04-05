@@ -179,7 +179,8 @@ export const data = {
         - Border styles, gradients, and shadow effects.
         Work closely with backend developers, designers, and product managers to deliver seamless features.
         Document reusable components and builder functionality to maintain code scalability.`,
-      technologies: [`React.js`, `Express.js`, `PostgreSQL`, `Sequelize.js`, `Ant Design`, `React-Query`, `Axios`, `React-Draft`, `AWS`, `Nodemailer`, `SortableJS`, `React-Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
+      technologies: [`React`, `Express`, `Postgres`, `Sequelize`, `Ant Design`, `React Query`, `Axios`, `React Draft`,
+        `AWS`, `Nodemailer`, `SortableJS`, `React Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
       site: 'https://dinomail.io',
       linkedIn: 'https://www.linkedin.com/company/wimble',
       icon: [
@@ -229,7 +230,7 @@ export const data = {
        Built a feature-rich data table with CRUD operations, integrating TypeScript to type-check table data and ensure accurate data manipulation (e.g., adding, editing, and deleting entries).
        Leveraged inputs for managing form states and validation to enforce correct form data structures.
        Coordinated with backend engineers to ensure that the data received matched the expected structure and type.`,
-      technologies: [`React.js`, `BEM`, `TypeScript`, `SCSS`, `Google Analytics`, `REST APIs`, `ESLint/Prettier`, `Redux/Toolkit/Thunk`, `Axios`],
+      technologies: [`React`, `BEM`, `TypeScript`, `SCSS`, `Google Analytics`, `REST APIs`, `ESLint/Prettier`, `RTK/Thunk`, `Axios`],
       site: 'https://hygge.software',
       linkedIn: 'https://www.linkedin.com/company/hyggesoftware',
       icon: [
@@ -271,18 +272,22 @@ export const data = {
       location: 'United States',
       status: 'Remote',
       period: { start: 'April 2022', end: 'February 2023' },
-      description: `The platform is a comprehensive employee management system designed to streamline administrative tasks, enhance workforce organization, and improve accessibility.
+      description: `The platform is a comprehensive employee management system designed to streamline administrative
+        tasks, enhance workforce organization, and improve accessibility.
         Developed a MVP to validate the PoC, ensuring scalability and adaptability for future iterations.
         Tailored components, including form fields, buttons, and menus, to match the platform’s branding.
         Implemented internationalization for localization strategies to support specific regions.
         Ensured all text, formatting, and input validations were adaptable to local preferences.
-        Designed and optimized relational database schemas to store and process employee data, subscriptions, and billing plans efficiently.
-        Ensured the platform’s UI was responsive and mobile-friendly, providing a seamless experience on desktops, tablets, and smartphones.
-        Designed intuitive dashboards tailored to different user roles, such as administrators managing employees and users viewing their individual data.
+        Designed and optimized relational database schemas to store and process employee data, subscriptions,
+        and billing plans efficiently. Ensured the platform’s UI was responsive and mobile-friendly, providing a
+        seamless experience on desktops, tablets, and smartphones. Designed intuitive dashboards tailored to
+        different user roles, such as administrators managing employees and users viewing their individual data.
         Built a secure authentication system using JWT to manage user access and permissions.
         Utilized techniques such as lazy loading, code splitting, and backend caching.
         Integrated tools for analytics, reporting, and monitoring using Google Analytics.`,
-      technologies: [`React.js`, `Node.js`, `Axios`, `Express.js`, `Authorization`, `Authentication`, `JWT`, `REST APIs`, `ESLint/Prettier`, `React-Query`, `PostgreSQL`, `Sequelize.js`, 'Nodemailer', 'React i18next', 'React-Hook-Form', 'Context API', 'CORS', 'Swagger API', `Material-UI`, `Styled-Components`],
+      technologies: [`React`, `Node.js`, `Axios`, `Express`, `Auth`, `JWT`, `REST API`,
+        `React Query`, `Postgres`, `Sequelize`, 'Nodemailer', 'React Hook Form', 'i18next',
+        'Context API', 'CORS', 'Swagger', `MUI`, `Styled Components`, `ESLint/Prettier`],
       site: 'https://infosoft.ua',
       linkedIn: 'https://www.linkedin.com/company/infosoft-global',
       icon: [
@@ -334,7 +339,7 @@ export const data = {
         Implemented interactive forms to handle user inputs for order placement, including delivery options, product details.
         Integrated tracking for user interactions and behaviors in Google Analytics.`,
       technologies: [
-        `React.js`, `CEOs`, `REST APIs`, `React-Helmet`, `React-Hook-Form`, 'React-Email-Edit', 'React-PDF', 'Material-UI', 'Google Authentication', 'Facebook Authentication'
+        `React`, `CEOs`, `REST APIs`, `React Helmet`, `React Hook Form`, 'React Email Edit', 'React PDF', 'MUI', 'Google Authentication', 'Facebook Authentication'
       ],
       site: 'https://www.kortreistved.no',
       linkedIn: 'https://www.linkedin.com/in/trond-fjørtoft-19a76b97',
@@ -387,7 +392,7 @@ export const data = {
         Utilize React Table to show filtered data to improve UX and speed.
         Implement reusable, modular components for different blocks and ensure responsiveness using CSS Flexbox.`,
       technologies: [
-        `React.js`, `TypeScript`, `Redux/Toolkit/Thunk`, `React-Hook-Form`, 'React-Table', 'REST APIs', 'SCSS', 'React-Testing-Library', 'CI/CD', 'Express.js', 'Node.js', 'Cloud Storage'
+        `React`, `TypeScript`, `RTK/Thunk`, `React Hook Form`, 'React Table', 'REST APIs', 'SCSS', 'React Testing Library', 'CI/CD', 'Express', 'Node.js', 'Cloud Storage'
       ],
       site: 'https://www.mckesson.com',
       linkedIn: 'https://www.linkedin.com/company/mckesson',
@@ -426,6 +431,15 @@ export const data = {
   ],
   hobby: [
     {
+      id: 'cl41bkdna4iz10c0z9zkv07wd',
+      title: 'The Maxim Gordiyenko Portfolio',
+      description: `Base on Next.JS framework also uses TailwindCSS moreover allows all connectivity with me via Telegram, Facebook and email.`,
+      link: 'https://github.com/MaximGordiyenko/portfolio',
+      icon: {
+        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vala.svg'
+      }
+    },
+    {
       id: 'cl44471kx052f0b0ygn5837po',
       title: 'Blog',
       description: `The Blog collect my experience of programing issues that I faced during the developing process include thoughts of future technologies.`,
@@ -436,10 +450,9 @@ export const data = {
     },
     {
       id: 'cl41bd91j4h2j0b14h717fxus',
-      title: 'Milky Way Universe',
-      description: 'The UI is almost identical produce movement by star-lights with dark bg, animations with a lot' +
-        ' of using Javascript and HTML. Tech: HTML, CSS, Canvas, JavaScript.',
-      link: 'https://maximgordiyenko.github.io/Universe/',
+      title: 'Open Interest Bot',
+      description: `An crypto analytics tool that monitors Open Interest across top digital assets to help traders identify optimal entry points and potential price movements in the crypto market. Tech: Next.js, CDN, Canvas, TailwindCSS.`,
+      link: 'https://oi-bot-web.vercel.app/',
       icon: {
         url: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/spark.svg'
       }
@@ -454,16 +467,6 @@ export const data = {
         url: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/tableau-icon.svg'
       }
     },
-    {
-      id: 'cl41bkdna4iz10c0z9zkv07wd',
-      title: 'The Maxim Gordiyenko Portfolio',
-      description: "Base on Next.JS framework also uses TailwindCSS moreiver allows all connectivity with me via" +
-        " Telegram, Facebook and email.",
-      link: 'https://github.com/MaximGordiyenko/portfolio',
-      icon: {
-        url: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/vala.svg'
-      }
-    }
   ],
   characters: [
     "M1 3.53259H11.2069L35.2069 70.8045H36.0345L60.0345 3.53259H70.2414V84.5754H62.2414V23.0019H61.5517L39.4828" +

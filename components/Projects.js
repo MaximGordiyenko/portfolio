@@ -17,11 +17,12 @@ export const Projects = ({ projects }) => {
         {projects.map((project, index) => (
           <article
             key={project.id}
-            className={`item flex items-center gap-[20px] lg:gap-[60px] w-full px-[5vw] md:min-h-[60vh] sm:p-12 md:py-4 lg:py-4 ${
+            className={`item flex items-center gap-[20px] lg:gap-[60px] xl:min-h-[50vh] lg:min-h-[50vh] md:min-h-[60vh] md:py-8 max-sm:py-8
+            lg:py-4 ${
               index % 2 === 1
                 ? "flex-col lg:flex-row"
                 : "flex-col lg:flex-row-reverse"
-            }`}>
+            } w-full px-[5vw]`}>
             <div className="w-full lg:flex-1">
               <ImageSlider projects={project}/>
             </div>

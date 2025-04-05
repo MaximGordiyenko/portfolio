@@ -18,7 +18,7 @@ export const Skills = ({ skills }) => {
         className="description text-lg text-center mt-[8px] pb-[10px] text-gray-400">
         Technologies that I use to develop commercial product everyday
       </p>
-      <nav className="grid justify-center grid-cols-8 md:grid-cols-6 lg:grid-cols-10 gap-y-[10px] md:gap-y-[20px]">
+      <nav className="grid justify-center grid-cols-8 lg:grid-cols-10 md:grid-cols-6 max-sm:grid-cols-3 gap-y-[10px] md:gap-y-[20px]">
         {skills.map((skill) => (
           <a
             key={skill.id}
