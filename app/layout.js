@@ -10,10 +10,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-    <head>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
               (function(w, d, s, l, i) {
                 w[l] = w[l] || [];
                 w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -25,52 +25,50 @@ export default function RootLayout({ children }) {
                 f.parentNode.insertBefore(j, f);
               })(window, document, 'script', 'dataLayer', 'GTM-MXQQ7C7K');
             `
-        }}
-      />
-      <link rel="canonical" href="https://maximhordiienko.vercel.app" />
-      <link rel="alternate" hrefLang="en-US" href="https://maximhordiienko.vercel.app/en-US" />
-      
-      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-      <link rel="apple-touch-icon" href="/favicon-16x16.png" sizes="16x16" />
-      <link rel="apple-touch-icon" href="/favicon-32x32.png" sizes="32x32" />
-      
-      {/* Title and meta tags */}
-      <title>Maxim Hordiienko</title>
-      <meta name="title" content="Maxim Hordiienko" />
-      <meta name="description" content="Maxim Hordiienko" />
-      
-      {/* Open Graph meta tags */}
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="Maxim Hordiienko" />
-      <meta property="og:description" content="Maxim Hordiienko" />
-      <meta
-        property="og:image"
-        content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
-      />
-      
-      {/* Twitter meta tags */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:title" content="Maxim Hordiienko" />
-      <meta property="twitter:description" content="Maxim Hordiienko" />
-      <meta
-        property="twitter:image"
-        content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
-      />
-      
-      {/* Mobile web app meta tags */}
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="google-site-verification" content="Yj-V116Ht1akd41tGQHYwrzT_qiYUrYJpKX9aYAsBHQ" />
-    </head>
-    <LazyMotion features={domAnimation}>
-      <body>
-      <noscript>
-        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXQQ7C7K"
-                height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
-      </noscript>
-      {children}
-      </body>
-    </LazyMotion>
+          }}
+        />
+        <link rel="canonical" href="https://maximhordiienko.vercel.app" />
+        <link rel="alternate" hrefLang="en-US" href="https://maximhordiienko.vercel.app/en-US" />
+
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="/favicon-16x16.png" sizes="16x16" />
+        <link rel="apple-touch-icon" href="/favicon-32x32.png" sizes="32x32" />
+
+        {/* Title and meta tags */}
+        <title>Maxim Hordiienko</title>
+        <meta name="title" content="Maxim Hordiienko" />
+        <meta name="description" content="Maxim Hordiienko" />
+
+        {/* Open Graph meta tags */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Maxim Hordiienko" />
+        <meta property="og:description" content="Maxim Hordiienko" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
+        />
+
+        {/* Twitter meta tags */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Maxim Hordiienko" />
+        <meta property="twitter:description" content="Maxim Hordiienko" />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
+        />
+
+        {/* Mobile web app meta tags */}
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="mobile-web-app-capable" content="yes" />
+        <meta name="google-site-verification" content="Yj-V116Ht1akd41tGQHYwrzT_qiYUrYJpKX9aYAsBHQ" />
+      </head>
+      <LazyMotion features={domAnimation}>
+        <body>
+          <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+          <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+          {children}
+        </body>
+      </LazyMotion>
     </html>
   );
 }
