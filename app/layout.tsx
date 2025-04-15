@@ -1,3 +1,5 @@
+import { ReactNode } from 'react';
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { domAnimation, LazyMotion } from 'framer-motion';
 import "../styles/globals.css";
 
@@ -7,26 +9,10 @@ export const metadata = {
   title: `Maxim Hordiienko`,
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function(w, d, s, l, i) {
-                w[l] = w[l] || [];
-                w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-                var f = d.getElementsByTagName(s)[0],
-                    j = d.createElement(s),
-                    dl = l != 'dataLayer' ? '&l=' + l : '';
-                j.async = true;
-                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-                f.parentNode.insertBefore(j, f);
-              })(window, document, 'script', 'dataLayer', 'GTM-MXQQ7C7K');
-            `
-          }}
-        />
         <link rel="canonical" href="https://maximhordiienko.vercel.app" />
         <link rel="alternate" hrefLang="en-US" href="https://maximhordiienko.vercel.app/en-US" />
 
@@ -64,9 +50,8 @@ export default function RootLayout({ children }) {
       </head>
       <LazyMotion features={domAnimation}>
         <body>
-          <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-          <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
           {children}
+          <GoogleAnalytics gaId="G-KSH3LN7PQV" />
         </body>
       </LazyMotion>
     </html>
