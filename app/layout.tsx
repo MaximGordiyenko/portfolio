@@ -1,5 +1,6 @@
 import { ReactNode } from 'react';
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from '@next/third-parties/google';
+import { Analytics } from '@vercel/analytics/next';
 import { domAnimation, LazyMotion } from 'framer-motion';
 import "../styles/globals.css";
 
@@ -52,6 +53,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <body>
           {children}
           <GoogleAnalytics gaId="G-KSH3LN7PQV" />
+           <Analytics />
         </body>
       </LazyMotion>
     </html>
