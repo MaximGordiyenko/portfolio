@@ -31,14 +31,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta property="og:title" content="Maxim Hordiienko | Frontend Developer" />
         <meta property="og:description" content="Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects." />
         <meta property="og:url" content="https://maximhordiienko.vercel.app/" />
-        <meta property="og:image" content="https://maximhordiienko.vercel.app/preview.png" />
+        <meta property="og:image" content="https://res.cloudinary.com/maxigord/image/upload/v1744849416/preview_xue6ae.png" />
 
 
         {/* Twitter meta tags */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:title" content="Maxim Hordiienko | Frontend Developer" />
         <meta property="twitter:description" content="Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects." />
-        <meta property="twitter:image" content="https://maximhordiienko.vercel.app/preview.png" />
+        <meta property="twitter:image" content="https://res.cloudinary.com/maxigord/image/upload/v1744849416/preview_xue6ae.png" />
 
         {/* Optional Pinterest-Specific Meta */}
         <meta name="pinterest-rich-pin" content="true" />
