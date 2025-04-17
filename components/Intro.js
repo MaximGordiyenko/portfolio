@@ -17,7 +17,7 @@ export const Intro = ({ characters }) => {
             <m.path
               initial={{ pathLength: 0 }}
               animate={{ pathLength: 1 }}
-              transition={{ delay: index / 10, duration: 1 }}
+              transition={{ delay: index / 10, duration: 0.8 }}
               d={character}
               fill="none"
               stroke="#FFF"
@@ -26,19 +26,14 @@ export const Intro = ({ characters }) => {
             <m.path
               initial={{ fill: "#ffffff00" }}
               animate={{ fill: "#ffffff" }}
-              transition={{ delay: 0.7 + index / 10, duration: 0.6 }}
+              transition={{ delay: 1 + index / 10, duration: 0.4 }}
               d={character}
             />
           </g>
         ))}
       </svg>
-      <p className="tracking-[1rem] text-[0.5rem] mt-[-15px] font-bold text-gray-300">HORDIIENKO</p>
-      <m.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }}
-        className="text-3xl z-[1] overflow-hidden w-[100%]">
-        <div className="animate-[right_3s_ease-in-out_forwards] flex justify-center items-center">
+      <p className="animate-delay-name tracking-[1rem] text-[0.8rem] mt-[-15px] font-bold text-gray-300">HORDIIENKO</p>
+      <div className="animate-delay-profession flex justify-center items-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="pink" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 6.75 1.5 12l5.25 5.25m10.5 0L22.5 12l-5.25-5.25" />
           </svg>
@@ -46,9 +41,14 @@ export const Intro = ({ characters }) => {
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="pink" className="size-6">
             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
           </svg>
-        
         </div>
-      </m.div>
+      {/* <m.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.4, delay: 1.4 }}
+        className="text-3xl z-[1] overflow-hidden w-[100%]">
+        
+      </m.div> */}
       <m.a
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

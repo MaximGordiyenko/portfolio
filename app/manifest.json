@@ -1,7 +1,7 @@
 {
-  "name": "Maxim Hordiienko - Portfolio",
-  "short_name": "Maxim Hordiienko",
-  "description": "A frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.",
+  "name": "Maxim Hordiienko | Frontend Developer",
+  "short_name": "Max Gor | Frontend Developer",
+  "description": "Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#1e1d1d",
@@ -25,16 +25,40 @@
   ],
   "screenshots": [
     {
-      "src": "https://res.cloudinary.com/maxigord/image/upload/v1738309398/Screenshot_2025-01-31_at_09.38.48_aubknu.png",
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1744849416/preview_xue6ae.png",
       "sizes": "640x480",
       "type": "image/png",
-      "label": "Project Email Builder Dashboard"
+      "label": "Maxim Hordiienko | Frontend Developer"
     },
     {
-      "src": "https://res.cloudinary.com/maxigord/image/upload/v1738308494/order_lccjvq.png",
-      "sizes": "1280x720",
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1744849959/Screenshot_2025-04-17_at_03.32.30_ow3nx4.png",
+      "sizes": "640x480",
       "type": "image/png",
-      "label": "Admin Panel"
+      "label": "Marketing Platform | Email Builder"
+    },
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1738310000/Screenshot_2025-01-31_at_09.50.53_d738ci.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "Employee Management System"
+    },
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1661187402/Kortreistjord_xs7fwb.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "Timber & Soil Marketplace"
+    },
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1661187183/e-m_y50sxk.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "Pharmacy Management System"
+    },
+    {
+      "src": "https://res.cloudinary.com/maxigord/image/upload/v1661187443/sds_zymi3c.png",
+      "sizes": "640x480",
+      "type": "image/png",
+      "label": "School Management System"
     }
   ]
 }

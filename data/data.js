@@ -1,161 +1,142 @@
 export const data = {
   skills: [
     {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/javascript.svg',
-      title: 'JavaScript',
-      link: 'https://www.w3schools.com/js/default.asp',
-      id: 1
-    },
-    {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
-      title: 'Styled',
-      link: 'https://styled-components.com',
-      id: 2
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg',
-      title: 'Tailwind',
-      link: 'https://tailwindcss.com',
-      id: 3
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/git.svg',
-      title: 'Git',
-      link: 'https://git-scm.com',
-      id: 4
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
-      title: 'MongoDB',
-      link: 'https://www.mongodb.com',
-      id: 5
-    },
-    {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661281352/mongoos_cp9xwd.svg',
-      title: 'Mongoose',
-      link: 'https://mongoosejs.com',
-      id: 6
-    },
-    {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
-      title: 'Express',
-      link: 'https://expressjs.com',
-      id: 7
-    },
-    {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
       title: 'React',
       link: 'https://reactjs.org',
-      id: 8
+      id: '39fnld8rh-2j2bf-dsds3'
     },
     {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
-      title: 'NodeJS',
-      link: 'https://nodejs.org',
-      id: 9
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
-      title: 'Typescript',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752631/typescript-svgrepo-com_md93he.svg',
+      title: 'TypeScript',
       link: 'https://www.typescriptlang.org',
-      id: 10
+      id: 'bhgjj-fnhj3948-7tydw'
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/next.svg',
       title: 'NextJS',
       link: 'https://nextjs.org',
-      id: 11
+      id: 'ythg-wokd3094-75nf33'
     },
     {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
-      title: 'i18n',
-      link: 'https://www.i18next.com',
-      id: 12
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751447/6326ee93751a7f9a2861e5a0_s3_bucket_light_uj2dwi.svg',
+      title: 'AWS S3',
+      link: 'https://aws.amazon.com',
+      id: 'skdjs-23468ek-jw9du3b3'
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751018/aws-ec2_wxezgg.svg',
+      title: 'AWS EC2',
+      link: 'https://aws.amazon.com',
+      id: '68uwl3n-djendss-sss33'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',
+      title: 'NodeJS',
+      link: 'https://nodejs.org',
+      id: 'woekwo-33388-dkruygbsk'
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
+      title: 'Express',
+      link: 'https://expressjs.com',
+      id: 'iruhreij-4339595-dds'
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752702/js-svgrepo-com_d8qmdy.svg',
+      title: 'JavaScript',
+      link: 'https://www.w3schools.com/js/default.asp',
+      id: 'n2j3-ckcn-dndi34-wm3i'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/git.svg',
+      title: 'Git',
+      link: 'https://git-scm.com',
+      id: 'jnrejrejri-3u4d-323232'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/mongodb-icon.svg',
+      title: 'Mongo',
+      link: 'https://www.mongodb.com',
+      id: 'nn3k0kf-m3ksdsd-3324f'
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/redux-action.svg',
       title: 'Redux',
       link: 'https://redux.js.org',
-      id: 13
+      id: '5674-ghfjd-ytrui222'
     },
     {
       image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
       title: 'MUI',
       link: 'https://styled-components.com',
-      id: 14
+      id: 'grouqa-dv8492hg-532vb'
     },
     {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/jira.svg',
-      title: 'Jira',
-      link: 'https://jira.atlassian.com',
-      id: 15
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+      title: 'Styled',
+      link: 'https://styled-components.com',
+      id: '9485ut-yhri4urh-23232'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
-      title: 'RTL',
-      link: 'https://testing-library.com',
-      id: 16
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/postgresql.svg',
-      title: 'PostgreSQL',
-      link: 'https://www.postgresql.org',
-      id: 17
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/sequelize.svg',
-      title: 'Sequelize',
-      link: 'https://sequelize.org',
-      id: 18
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/react-query-icon.svg',
-      title: 'React Query',
-      link: 'https://tanstack.com',
-      id: 19
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/eslint.svg',
-      title: 'ESLint',
-      link: 'https://eslint.org',
-      id: 20
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/prettier.svg',
-      title: 'Prettier',
-      link: 'https://prettier.io',
-      id: 21
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/aws-s3.svg',
-      title: 'AWS Bucket',
-      link: 'https://aws.amazon.com',
-      id: 22
-    },
-    {
-      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/html.svg',
-      title: 'HTML 5',
-      link: 'https://www.w3schools.com/html/default.asp',
-      id: 23
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/tailwindcss.svg',
+      title: 'Tailwind',
+      link: 'https://tailwindcss.com',
+      id: '0383j-ewnww-4j2v7wdjd'
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/sass.svg',
       title: 'SASS',
       link: 'https://sass-lang.com',
-      id: 24
+      id: 'hjkjer-jh3fwj-kwj43ww'
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/ant-design.svg',
       title: 'Ant Design',
       link: 'https://ant.design',
-      id: 25
+      id: '83jwb73-7hdsd-33h322'
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
+      title: 'RTL/Jest',
+      link: 'https://testing-library.com',
+      id: 'awirjbbr-dd3857-333333'
+    },
+    {
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752361/postgresql_uk3haq.svg',
+      title: 'Postgres',
+      link: 'https://www.postgresql.org',
+      id: '56vhs-ree356-10394ffl'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/sequelize.svg',
+      title: 'ORM/SQL',
+      link: 'https://sequelize.org',
+      id: 'gfbe4-ekjf-222e-444d'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/react-query-icon.svg',
+      title: 'React Query',
+      link: 'https://tanstack.com',
+      id: 'zpr23-sw4fdl-ddd22kk'
+    },
+    {
+      image: 'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/i18n.svg',
+      title: 'i18n',
+      link: 'https://www.i18next.com',
+      id: 'pok-okjddsdds4-fnnri8'
     },
     {
       image: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/chartjs.svg',
-      title: 'ChartJS',
+      title: 'Charts',
       link: 'https://www.chartjs.org',
-      id: 26
-    }
+      id: '83n-dm99n-dsd3ds-sdsw'
+    },{
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752018/Simpleicons-Team-Simple-Reacthookform_skgxfc.svg',
+      title: 'RHF',
+      link: 'https://react-hook-form.com',
+      id: '8due-3d00ss-bg7shj3x'
+    },
   ],
   projects: [
     {

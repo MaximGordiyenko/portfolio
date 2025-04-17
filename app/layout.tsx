@@ -5,9 +5,9 @@ import { domAnimation, LazyMotion } from 'framer-motion';
 import "../styles/globals.css";
 
 export const metadata = {
-  description: 'A frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.',
+  description: 'Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects.',
   manifest: '/manifest.json',
-  title: `Maxim Hordiienko`,
+  title: `Maxim Hordiienko | Frontend Developer`,
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -22,27 +22,26 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="apple-touch-icon" href="/favicon-32x32.png" sizes="32x32" />
 
         {/* Title and meta tags */}
-        <title>Maxim Hordiienko</title>
-        <meta name="title" content="Maxim Hordiienko" />
-        <meta name="description" content="Maxim Hordiienko" />
+        <title>Maxim Hordiienko | Frontend Developer</title>
+        <meta name="title" content="Maxim Hordiienko | Frontend Developer" />
+        <meta name="description" content="Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects." />
 
         {/* Open Graph meta tags */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Maxim Hordiienko" />
-        <meta property="og:description" content="Maxim Hordiienko" />
-        <meta
-          property="og:image"
-          content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
-        />
+        <meta property="og:title" content="Maxim Hordiienko | Frontend Developer" />
+        <meta property="og:description" content="Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects." />
+        <meta property="og:url" content="https://maximhordiienko.vercel.app/" />
+        <meta property="og:image" content="https://maximhordiienko.vercel.app/preview.png" />
+
 
         {/* Twitter meta tags */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:title" content="Maxim Hordiienko" />
-        <meta property="twitter:description" content="Maxim Hordiienko" />
-        <meta
-          property="twitter:image"
-          content="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
-        />
+        <meta property="twitter:title" content="Maxim Hordiienko | Frontend Developer" />
+        <meta property="twitter:description" content="Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects." />
+        <meta property="twitter:image" content="https://maximhordiienko.vercel.app/preview.png" />
+
+        {/* Optional Pinterest-Specific Meta */}
+        <meta name="pinterest-rich-pin" content="true" />
 
         {/* Mobile web app meta tags */}
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -53,7 +52,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <body>
           {children}
           <GoogleAnalytics gaId="G-KSH3LN7PQV" />
-           <Analytics />
+          <Analytics />
         </body>
       </LazyMotion>
     </html>

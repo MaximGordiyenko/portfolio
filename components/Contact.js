@@ -104,7 +104,7 @@ const Contact = ({ social }) => {
                   width={29}
                   height={29}
                 />
-                <h2 className="text-sky-600 hover:text-sky-400 max-sm:hidden">{item.title}</h2>
+                <h2 className="text-gray-300 hover:text-gray-400 max-sm:hidden">{item.title}</h2>
               </a>
             ))}
           </section>
