@@ -22,18 +22,33 @@ const Contact = ({ social }) => {
     emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_API_KEY);
   }, []);
 
-  const sendEmails = async (formData) => {
-    try {
-      await emailjs.send(
-        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
-        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+  // const sendEmails = async (formData) => {
+  //   try {
+  //     await emailjs.send(
+  //       process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+  //       process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
+  //       formData
+  //     );
+  //     setIsSuccess(true);
+  //     reset();
+  //   } catch (error) {
+  //     console.error('FAILED...', error.text);
+  //   }
+  // };
+
+  const sendEmails = (formData) => {
+    emailjs
+      .send(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID, 
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID, 
         formData
-      );
-      setIsSuccess(true);
-      reset();
-    } catch (error) {
-      console.error('FAILED...', error.text);
-    }
+      )
+      .then(result => {
+        setIsSuccess(true);
+        reset();
+      })
+      .catch(error => {
+        console.error('FAILED...', error.text);
+      });
   };
 
   return (
