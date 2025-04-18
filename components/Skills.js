@@ -4,18 +4,10 @@ import Image from "next/image";
 export const Skills = ({ skills }) => {
   return (
     <article className="lg:min-h-[70vh] px-[5vw] pt-[40px] pb-[60px] flex flex-col items-center justify-center z-[4]">
-      <h1
-        data-scroll=""
-        data-scroll-direction="horizontal"
-        data-scroll-speed="-1"
-        className="text-center text-3xl lg:text-4xl pb-[8px] text-gray-300">
+      <h1 className="text-center text-3xl lg:text-4xl pb-[8px] text-gray-300">
         Skills
       </h1>
-      <p
-        data-scroll=""
-        data-scroll-direction="horizontal"
-        data-scroll-speed="1"
-        className="description text-lg text-center mt-[8px] pb-[10px] text-gray-400">
+      <p className="description text-lg text-center mb-[30px] text-gray-400">
         Technologies that I use to develop commercial product everyday
       </p>
       <nav className="grid justify-center grid-cols-8 lg:grid-cols-10 md:grid-cols-6 max-sm:grid-cols-3 gap-y-[10px] md:gap-y-[20px]">

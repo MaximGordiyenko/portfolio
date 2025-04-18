@@ -1,5 +1,6 @@
-🌐 Maxim Hordiienko — Frontend Developer Portfolio
-Welcome to my portfolio! I'm Maxim Hordiienko, a passionate frontend developer who specializes in building responsive, high-performance web applications with a strong focus on modern UI/UX.
+🌐 I'm frontend developer with backend experience (sometimes), passionate about building dynamic, user-centric web applications. I specialize in React and Next.js, always striving to create engaging, seamless, and interactive user experiences.
+
+
 
 🚀 What I Do
 Craft sleek, interactive interfaces using React, Next.js, and Framer Motion
@@ -15,21 +16,16 @@ Frontend: React, Next.js, JavaScript, TypeScript
 
 Styling: Tailwind CSS, Sass, Styled Components
 
-Animations: Framer Motion, GSAP
-
 Tools: Git, Figma, Vite, Webpack
-
-📁 Projects
-Each project in this portfolio showcases different aspects of my skills—from custom animations to scalable component architecture and real-world UI solutions.
-
-👉 Check it out here: maximhordiienko.vercel.app
 
 📬 Let’s Connect
 I'm always open to new challenges, collaboration, or freelance opportunities.
 
-📧 Email Me
+🌐 [Website](https://maximhordiienko.vercel.app)
 
-💼 LinkedIn
+📧 [Email](mailto:maxim.gordiyenko@gmail.com)
 
-🧑‍💻 GitHub
+💼 [LinkedIn](https://www.linkedin.com/in/maxim-gordiyenko)
+
+🧑‍💻 [GitHub](https://github.com/MaximGordiyenko)
 

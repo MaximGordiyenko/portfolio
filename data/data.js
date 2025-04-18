@@ -474,7 +474,7 @@ export const data = {
     {
       title: "Telegram",
       icon: "https://res.cloudinary.com/maxigord/image/upload/v1663022112/teleg_oh3tgb.png",
-      link: "https://telegram.me/MaximGordiyenko"
+      link: "https://telegram.me/MaxGor"
     }
   ],
   about: [

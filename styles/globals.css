@@ -51,3 +51,21 @@
     opacity: 1;
   }
 }
+
+@keyframes loading-border-bottom {
+  0% {
+    border-bottom-color: transparent;
+  }
+  50% {
+    border-bottom-color: #0ea5e9;
+  }
+  100% {
+    border-bottom-color: transparent;
+  }
+}
+
+.input-loading {
+  border: 1px solid #44403c;
+  border-bottom: 2px solid;
+  animation: loading-border-bottom 1.5s ease-in-out infinite;
+}

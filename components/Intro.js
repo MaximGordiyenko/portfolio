@@ -42,13 +42,6 @@ export const Intro = ({ characters }) => {
             <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
           </svg>
         </div>
-      {/* <m.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.4, delay: 1.4 }}
-        className="text-3xl z-[1] overflow-hidden w-[100%]">
-        
-      </m.div> */}
       <m.a
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
