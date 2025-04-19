@@ -7,7 +7,7 @@ export const data = {
       id: '39fnld8rh-2j2bf-dsds3'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752631/typescript-svgrepo-com_md93he.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752631/Portfolio/Icons/typescript-svgrepo-com_md93he.svg',
       title: 'TypeScript',
       link: 'https://www.typescriptlang.org',
       id: 'bhgjj-fnhj3948-7tydw'
@@ -19,13 +19,13 @@ export const data = {
       id: 'ythg-wokd3094-75nf33'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751447/6326ee93751a7f9a2861e5a0_s3_bucket_light_uj2dwi.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751447/Portfolio/Icons/6326ee93751a7f9a2861e5a0_s3_bucket_light_uj2dwi.svg',
       title: 'AWS S3',
       link: 'https://aws.amazon.com',
       id: 'skdjs-23468ek-jw9du3b3'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751018/aws-ec2_wxezgg.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744751018/Portfolio/Icons/aws-ec2_wxezgg.svg',
       title: 'AWS EC2',
       link: 'https://aws.amazon.com',
       id: '68uwl3n-djendss-sss33'
@@ -37,13 +37,13 @@ export const data = {
       id: 'woekwo-33388-dkruygbsk'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/express_paqcqh.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661284014/Portfolio/Icons/express_paqcqh.svg',
       title: 'Express',
       link: 'https://expressjs.com',
       id: 'iruhreij-4339595-dds'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752702/js-svgrepo-com_d8qmdy.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752702/Portfolio/Icons/js-svgrepo-com_d8qmdy.svg',
       title: 'JavaScript',
       link: 'https://www.w3schools.com/js/default.asp',
       id: 'n2j3-ckcn-dndi34-wm3i'
@@ -67,13 +67,13 @@ export const data = {
       id: '5674-ghfjd-ytrui222'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/material-ui_s6in4f.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661188074/Portfolio/Icons/material-ui_s6in4f.svg',
       title: 'MUI',
       link: 'https://styled-components.com',
       id: 'grouqa-dv8492hg-532vb'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/styled-components_qltru9.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/Portfolio/Icons/styled-components_qltru9.svg',
       title: 'Styled',
       link: 'https://styled-components.com',
       id: '9485ut-yhri4urh-23232'
@@ -97,13 +97,13 @@ export const data = {
       id: '83jwb73-7hdsd-33h322'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/testing-library-red_inyvmr.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1661187903/Portfolio/Icons/testing-library-red_inyvmr.svg',
       title: 'RTL/Jest',
       link: 'https://testing-library.com',
       id: 'awirjbbr-dd3857-333333'
     },
     {
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752361/postgresql_uk3haq.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752361/Portfolio/Icons/postgresql_uk3haq.svg',
       title: 'Postgres',
       link: 'https://www.postgresql.org',
       id: '56vhs-ree356-10394ffl'
@@ -132,7 +132,7 @@ export const data = {
       link: 'https://www.chartjs.org',
       id: '83n-dm99n-dsd3ds-sdsw'
     },{
-      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752018/Simpleicons-Team-Simple-Reacthookform_skgxfc.svg',
+      image: 'https://res.cloudinary.com/maxigord/image/upload/v1744752018/Portfolio/Icons/Simpleicons-Team-Simple-Reacthookform_skgxfc.svg',
       title: 'RHF',
       link: 'https://react-hook-form.com',
       id: '8due-3d00ss-bg7shj3x'
@@ -180,23 +180,28 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309398/Screenshot_2025-01-31_at_09.38.48_aubknu.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1744849959/Portfolio/Gallery/Screenshot_2025-04-17_at_03.32.30_ow3nx4.png',
           alt: 'mail-img-1'
         },
         {
           id: 2,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309394/Screenshot_2025-01-31_at_09.38.01_qfdog0.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309398/Portfolio/Gallery/Screenshot_2025-01-31_at_09.38.48_aubknu.png',
           alt: 'mail-img-2'
         },
         {
           id: 3,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309373/Screenshot_2025-01-31_at_09.37.48_ozuhwg.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309394/Portfolio/Gallery/Screenshot_2025-01-31_at_09.38.01_qfdog0.png',
           alt: 'mail-img-3'
         },
         {
           id: 4,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309372/Screenshot_2025-01-31_at_09.39.28_uhofic.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309373/Portfolio/Gallery/Screenshot_2025-01-31_at_09.37.48_ozuhwg.png',
           alt: 'mail-img-4'
+        },
+        {
+          id: 5,
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309372/Portfolio/Gallery/Screenshot_2025-01-31_at_09.39.28_uhofic.png',
+          alt: 'mail-img-5'
         }
       ]
     },
@@ -226,22 +231,22 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308494/order_lccjvq.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308494/Portfolio/Gallery/order_lccjvq.png',
           alt: 'admin-panel-img-1'
         },
         {
           id: 2,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/customers_detailpage.0cea30a2_keuog1.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/Portfolio/Gallery/customers_detailpage.0cea30a2_keuog1.png',
           alt: 'admin-panel-img-2'
         },
         {
           id: 3,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/525e8ad0-7196-4fcc-a6c0-ba2d82a9a934.png_copy_mz7mwq.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738308493/Portfolio/Gallery/525e8ad0-7196-4fcc-a6c0-ba2d82a9a934.png_copy_mz7mwq.png',
           alt: 'admin-panel-img-3'
         },
         {
           id: 4,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187443/sds_zymi3c.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187443/Portfolio/Gallery/sds_zymi3c.png',
           alt: 'admin-panel-img-4'
         }
       ]
@@ -285,22 +290,22 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310005/Screenshot_2025-01-31_at_09.49.59_rwla2y.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310005/Portfolio/Gallery/Screenshot_2025-01-31_at_09.49.59_rwla2y.png',
           alt: 'crm-img-1'
         },
         {
           id: 2,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310003/Screenshot_2025-01-31_at_09.50.38_eq57yn.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310003/Portfolio/Gallery/Screenshot_2025-01-31_at_09.50.38_eq57yn.png',
           alt: 'crm-img-2'
         },
         {
           id: 3,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310000/Screenshot_2025-01-31_at_09.50.53_d738ci.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310000/Portfolio/Gallery/Screenshot_2025-01-31_at_09.50.53_d738ci.png',
           alt: 'crm-img-3'
         },
         {
           id: 4,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309999/Screenshot_2025-01-31_at_09.52.03_r8bksm.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738309999/Portfolio/Gallery/Screenshot_2025-01-31_at_09.52.03_r8bksm.png',
           alt: 'crm-img-4'
         }
       ]
@@ -336,22 +341,22 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288374/a83e0ce05e1c3bd20fc99e560463fc8b_uc3qgh.webp',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288374/Portfolio/Gallery/a83e0ce05e1c3bd20fc99e560463fc8b_uc3qgh.webp',
           alt: 'kortreistved-img-1'
         },
         {
           id: 2,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/79a1234155cc89632911c740a3ddd9b4_sw0pf1.webp',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/Portfolio/Gallery/79a1234155cc89632911c740a3ddd9b4_sw0pf1.webp',
           alt: 'kortreistved-img-2'
         },
         {
           id: 3,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/43c89d88947cdc4513ff2bbf350251ea_rpn31j.webp',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738288373/Portfolio/Gallery/43c89d88947cdc4513ff2bbf350251ea_rpn31j.webp',
           alt: 'kortreistved-img-3'
         },
         {
           id: 4,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187402/Kortreistjord_xs7fwb.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187402/Portfolio/Gallery/Kortreistjord_xs7fwb.png',
           alt: 'kortreistved-img-4'
         }
       ]
@@ -389,22 +394,27 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310651/acbd4b71-e1ad-4bb0-8a8b-35f323f646c2_kzonpk.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1661187183/Portfolio/Gallery/e-m_y50sxk.png',
           alt: 'pharm-img-1'
         },
         {
           id: 2,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310647/Screenshot_2025-01-31_at_09.59.37_wh0miy.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310651/Portfolio/Gallery/acbd4b71-e1ad-4bb0-8a8b-35f323f646c2_kzonpk.png',
           alt: 'pharm-img-2'
         },
         {
           id: 3,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310643/Screenshot_2025-01-31_at_10.00.17_w52oyv.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310647/Portfolio/Gallery/Screenshot_2025-01-31_at_09.59.37_wh0miy.png',
           alt: 'pharm-img-3'
         },
         {
           id: 4,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310642/Screenshot_2025-01-31_at_10.01.16_csq9et.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310643/Portfolio/Gallery/Screenshot_2025-01-31_at_10.00.17_w52oyv.png',
+          alt: 'pharm-img-4'
+        },
+        {
+          id: 5,
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1738310642/Portfolio/Gallery/Screenshot_2025-01-31_at_10.01.16_csq9et.png',
           alt: 'pharm-img-4'
         }
       ]
@@ -426,7 +436,7 @@ export const data = {
       description: `The Blog collect my experience of programing issues that I faced during the developing process include thoughts of future technologies.`,
       link: '/blog',
       icon: {
-        url: 'https://cdn.jsdelivr.net/gh/gilbarbara/logos@master/logos/vlang.svg'
+        url: 'https://res.cloudinary.com/maxigord/image/upload/v1661189974/Portfolio/Icons/blogger_z0fmbm.svg'
       }
     },
     {
@@ -463,17 +473,17 @@ export const data = {
   social: [
     {
       title: "Github",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663024005/github-green_sb1h2k.png",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663024005/Portfolio/Icons/github-green_sb1h2k.png",
       link: "https://github.com/MaximGordiyenko/"
     },
     {
       title: "LinkedIn",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663021851/linkinId_rvrwc8.png",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663021851/Portfolio/Icons/linkinId_rvrwc8.png",
       link: "https://www.linkedin.com/in/maxim-gordiyenko/"
     },
     {
       title: "Telegram",
-      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663022112/teleg_oh3tgb.png",
+      icon: "https://res.cloudinary.com/maxigord/image/upload/v1663022112/Portfolio/Icons/teleg_oh3tgb.png",
       link: "https://telegram.me/MaxGor"
     }
   ],
