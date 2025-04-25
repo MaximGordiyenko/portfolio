@@ -162,7 +162,7 @@ export const data = {
         Document reusable components and builder functionality to maintain code scalability.`,
       technologies: [`React`, `Express`, `Postgres`, `Sequelize`, `Ant Design`, `React Query`, `Axios`, `React Draft`,
         `AWS`, `Nodemailer`, `SortableJS`, `React Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
-      site: 'https://maximgordiyenko.github.io/emailfy-frontend/login',
+      site: 'https://maximgordiyenko.github.io/emailfy-frontend',
       linkedIn: 'https://www.linkedin.com/company/wimble',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
