@@ -19,7 +19,7 @@ export const Who = ({ data }) => {
       className="flex gap-[5vw] px-[5vw] lg:px-[9vw] z-[2] lg:min-h-[70vh] items-center justify-center flex-col lg:flex-row">
       <Image
         className="w-[300px] h-[300px] max-sm:w-[250px] rounded-full lg:flex-1"
-        src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/avatar_w7go3l.png"
+        src="https://res.cloudinary.com/maxigord/image/upload/v1661180876/Portfolio/avatar_w7go3l.png"
         width={600}
         height={750}
         alt="who"

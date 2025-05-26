@@ -164,6 +164,7 @@ export const data = {
         `AWS`, `Nodemailer`, `SortableJS`, `React Email`, `ESLint/Prettier`, `Chart.js`, `Codemirror`],
       site: 'https://maximgordiyenko.github.io/emailfy-frontend',
       linkedIn: 'https://www.linkedin.com/company/wimble',
+      github: 'https://github.com/users/MaximGordiyenko/projects/3/views/1?pane=info',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
@@ -219,6 +220,7 @@ export const data = {
       technologies: [`React`, `BEM`, `TypeScript`, `SCSS`, `Google Analytics`, `REST APIs`, `ESLint/Prettier`, `RTK/Thunk`, `Axios`],
       site: 'https://hygge.software',
       linkedIn: 'https://www.linkedin.com/company/hyggesoftware',
+      github: '',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/sass.svg',
@@ -276,6 +278,7 @@ export const data = {
         'Context API', 'CORS', 'Swagger', `MUI`, `Styled Components`, `ESLint/Prettier`],
       site: 'https://infosoft.ua',
       linkedIn: 'https://www.linkedin.com/company/infosoft-global',
+      github: '',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/typescript.svg',
@@ -329,6 +332,7 @@ export const data = {
       ],
       site: 'https://www.kortreistved.no',
       linkedIn: 'https://www.linkedin.com/in/trond-fjørtoft-19a76b97',
+      github: '',
       icon: [
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/react.svg',
         'https://cdn.jsdelivr.net/gh/PKief/vscode-material-icon-theme@main/icons/nodejs.svg',

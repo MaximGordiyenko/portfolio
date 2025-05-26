@@ -1,8 +1,9 @@
 "use client";
 import { BiLinkExternal } from "react-icons/bi";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import ImageSlider from '@/components/slider/Slider';
 import TextWithShowMore from '@/components/slider/TextWithShowMore';
+import LinkButton from '@/components/shared/LinkButton.tsx';
 
 export const Projects = ({ projects }) => {
   return (
@@ -42,20 +43,24 @@ export const Projects = ({ projects }) => {
               )}
               
               <div className="flex pt-[20px] gap-[20px]">
-                <a href={project.site}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-gradient-to-r from-sky-500 to-sky-700 hover:from-sky-700 hover:to-sky-500">
-                  <BiLinkExternal size={25}/>
-                  <span className="hover:text-gray-200">Official Site</span>
-                </a>
-                <a href={project.linkedIn}
-                   target="_blank"
-                   rel="noopener noreferrer"
-                   className="h-[45px] px-[15px] text-white rounded transition duration-300 flex items-center gap-[10px] bg-gradient-to-r from-sky-500 to-sky-700 hover:from-sky-700 hover:to-sky-500">
-                  <FaLinkedinIn size={25}/>
-                  <span className="hover:text-gray-200">LinkedIn</span>
-                </a>
+                <LinkButton
+                  href={project.site}
+                  icon={<BiLinkExternal size={25}/>}
+                  label="Official Site"
+                />
+                <LinkButton
+                  href={project.linkedIn}
+                  icon={<FaLinkedinIn size={25}/>}
+                  label="LinkedIn"
+                />
+                {
+                  project.github &&
+                  <LinkButton
+                    href={project.github}
+                    icon={<FaGithub size={25}/>}
+                    label="GitHub"
+                  />
+                }
               </div>
             </div>
           </article>
