@@ -1,10 +1,12 @@
+import { FC, ReactNode } from 'react';
+
 interface LinkButtonProps {
   href: string;
-  icon: React.ReactNode;
+  icon: ReactNode;
   label: string;
 }
 
-const LinkButton: React.FC<LinkButton> = ({ href, icon, label }) => (
+const LinkButton: FC<LinkButtonProps> = ({href, icon, label}) => (
   <a
     href={href}
     target="_blank"
