@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const ProjectsSlider = ({ projects }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [hovered, setHovered] = useState(false);
   
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % projects.images.length);
@@ -19,15 +20,22 @@ const ProjectsSlider = ({ projects }) => {
           className="flex transition-transform duration-300 ease-in-out"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {projects.images.map((image) => (
-            <div key={image.id} className="min-w-full flex-shrink-0">
-              <div className="w-full h-[340px] relative">
+            <div
+              key={image.id}
+              className="min-w-full flex-shrink-0"
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}>
+              <div className="w-full h-[340px] relative overflow-hidden rounded-[12px]">
                 <Image
-                  className="object-cover rounded-[12px]"
+                  className="rounded-[12px] transition-transform duration-300 ease-in-out"
                   src={image.url}
                   alt={image.alt}
                   fill
                   sizes="100%"
-                  style={{ objectFit: "cover" }}
+                  style={{
+                    objectFit: "contain",
+                    transform: hovered ? "scale(1.8)" : "scale(1)",
+                  }}
                 />
               </div>
             </div>

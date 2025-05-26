@@ -181,7 +181,7 @@ export const data = {
       images: [
         {
           id: 1,
-          url: 'https://res.cloudinary.com/maxigord/image/upload/v1744849959/Portfolio/Gallery/Screenshot_2025-04-17_at_03.32.30_ow3nx4.png',
+          url: 'https://res.cloudinary.com/maxigord/image/upload/v1747173463/Mailfly/Screenshot_2025-05-14_at_00.56.43_rzz3az.png',
           alt: 'mail-img-1'
         },
         {
