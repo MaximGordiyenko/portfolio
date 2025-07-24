@@ -1,14 +1,48 @@
-'use client'
 import { ReactNode } from 'react';
-import { GoogleAnalytics } from '@next/third-parties/google';
-import { Analytics } from '@vercel/analytics/next';
-import { domAnimation, LazyMotion } from 'framer-motion';
+import { Metadata } from 'next';
+import { ClientLayout } from '@/components/ClientLayout';
 import "../styles/globals.css";
 
-export const metadata = {
+const siteConfig = {
+  name: 'Maxim Hordiienko',
+  role: 'Frontend Developer',
   description: 'Frontend developer crafting responsive websites with React, modern UI/UX, and smooth animations. Check out my portfolio projects.',
+  url: 'https://maximhordiienko.vercel.app',
+  ogImage: 'https://res.cloudinary.com/maxigord/image/upload/v1744849416/preview_xue6ae.png',
+} as const;
+
+export const metadata: Metadata = {
+  title: `${siteConfig.name} | ${siteConfig.role}`,
+  description: siteConfig.description,
   manifest: '/manifest.json',
-  title: `Maxim Hordiienko | Frontend Developer`,
+  metadataBase: new URL(siteConfig.url),
+  alternates: {
+    canonical: siteConfig.url,
+    languages: {
+      'en-US': `${siteConfig.url}/en-US`,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    title: `${siteConfig.name} | ${siteConfig.role}`,
+    description: siteConfig.description,
+    url: siteConfig.url,
+    images: [{ url: siteConfig.ogImage }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${siteConfig.name} | ${siteConfig.role}`,
+    description: siteConfig.description,
+    images: [siteConfig.ogImage],
+  },
+  verification: {
+    google: 'Yj-V116Ht1akd41tGQHYwrzT_qiYUrYJpKX9aYAsBHQ',
+  },
+  other: {
+    'pinterest-rich-pin': 'true',
+    'apple-mobile-web-app-capable': 'yes',
+    'mobile-web-app-capable': 'yes',
+  },
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
@@ -49,13 +83,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="google-site-verification" content="Yj-V116Ht1akd41tGQHYwrzT_qiYUrYJpKX9aYAsBHQ" />
       </head>
-      <LazyMotion features={domAnimation}>
-        <body>
-          {children}
-          <GoogleAnalytics gaId="G-KSH3LN7PQV" />
-          <Analytics />
-        </body>
-      </LazyMotion>
+      <ClientLayout>
+        {children}
+      </ClientLayout>
     </html>
   );
 }
