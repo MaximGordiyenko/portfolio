@@ -46,7 +46,7 @@ export const Projects = ({ projects }) => {
                 <LinkButton
                   href={project.site}
                   icon={<BiLinkExternal size={25}/>}
-                  label="Official Site"
+                  label="Site"
                 />
                 <LinkButton
                   href={project.linkedIn}
