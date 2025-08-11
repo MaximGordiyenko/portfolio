@@ -145,7 +145,7 @@ export const data = {
       company: 'Wimble Software',
       location: 'Odessa, Ukraine',
       status: 'Remote',
-      period: { start: 'March 2024', end: 'November 2024' },
+      period: { start: 'March 2024', end: 'March 2025' },
       description: `Design and implement intuitive drag-and-drop interfaces for creating and customizing email templates.
         Develop modular and reusable components for layout structures.
         Implement responsive designs to ensure email templates render correctly across all devices and email clients.
